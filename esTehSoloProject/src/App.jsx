@@ -15,6 +15,7 @@ import Jasmine from "./Pages/Detail/Jasmine";
 import Lemon from "./Pages/Detail/Lemon";
 import Lychee from "./Pages/Detail/Lychee";
 import Privacy from "./Pages/Privacy";
+import About from "./Pages/About";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/estehjasmine" element={<Jasmine />} />
         <Route path="/estehlemon" element={<Lemon />} />
         <Route path="/estehleci" element={<Lychee />} />
+        <Route path="/tentangkami" element={<About />} />
       </Routes>
     </Router>
   );

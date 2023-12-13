@@ -29,7 +29,7 @@ const Susu = () => {
             <h2 className="text-center font-medium text-[#C2A05C] mt-[20px] sm:text-left">
               Minuman ini adalah kombinasi sempurna antara teh hitam berkualitas tinggi dengan susu segar. Disajikan dengan es batu, minuman ini memiliki rasa seimbang antara pahit dan manis, membuatnya sempurna untuk menyegarkan harimu.
             </h2>
-            <h2 className="text-center text-[#C2A05C] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp.7000,00</h2>
+            <h2 className="text-center text-[#C2A05C] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp7.000,00</h2>
           </div>
         </div>
       </div>
