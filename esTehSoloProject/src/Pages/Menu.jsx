@@ -74,57 +74,57 @@ const Menu = () => {
           <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehmanis")}>
             <img src={estehmanis} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Manis</h2>
-            <h2 className="text-[#276631]">Rp.3000</h2>
+            <h2 className="text-[#276631]">Rp3.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehkampoel")}>
             <img src={estehkampoel} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Kampoel</h2>
-            <h2 className="text-[#276631]">Rp.5000</h2>
+            <h2 className="text-[#276631]">Rp5.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehtarik")}>
             <img src={estehtarik} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Tarik</h2>
-            <h2 className="text-[#276631]">Rp.7000</h2>
+            <h2 className="text-[#276631]">Rp7.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehsusu")}>
             <img src={estehsusu} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Susu</h2>
-            <h2 className="text-[#276631]">Rp.7000</h2>
+            <h2 className="text-[#276631]">Rp7.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehmilo")}>
             <img src={estehmilo} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Milo</h2>
-            <h2 className="text-[#276631]">Rp.10.000</h2>
+            <h2 className="text-[#276631]">Rp10.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehcoklat")}>
             <img src={estehcoklat} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Coklat</h2>
-            <h2 className="text-[#276631]">Rp.10.000</h2>
+            <h2 className="text-[#276631]">Rp10.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehblackcurrant")}>
             <img src={estehblackcurrant} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Blackcurrant Tea</h2>
-            <h2 className="text-[#276631]">Rp.10.000</h2>
+            <h2 className="text-[#276631]">Rp10.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehmatcha")}>
             <img src={estehmatcha} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Matcha Tea</h2>
-            <h2 className="text-[#276631]">Rp.12.000</h2>
+            <h2 className="text-[#276631]">Rp12.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehjasmine")}>
             <img src={estehjasmine} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Jasmine Tea</h2>
-            <h2 className="text-[#276631]">Rp.7000</h2>
+            <h2 className="text-[#276631]">Rp7.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehlemon")}>
             <img src={estehlemon} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Lemon Tea</h2>
-            <h2 className="text-[#276631]">Rp.7000</h2>
+            <h2 className="text-[#276631]">Rp7.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehleci")}>
             <img src={estehleci} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Lychee Tea</h2>
-            <h2 className="text-[#276631]">Rp.7000</h2>
+            <h2 className="text-[#276631]">Rp7.000</h2>
           </div>
         </div>
       </div>

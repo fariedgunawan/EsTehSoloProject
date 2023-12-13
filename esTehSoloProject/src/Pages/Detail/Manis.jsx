@@ -29,7 +29,7 @@ const Manis = () => {
             <h2 className="text-center font-medium text-[#276631] mt-[20px] sm:text-left">
               Teh yang disajikan dalam kondisi dingin, disajikan dengan es batu dalam gelas untuk mempertahankan kesegarannya. Dapat disesuaikan dengan preferensi kemanisan teh yang diinginkan.
             </h2>
-            <h2 className="text-center text-[#276631] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp.3000,00</h2>
+            <h2 className="text-center text-[#276631] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp3.000,00</h2>
           </div>
         </div>
       </div>

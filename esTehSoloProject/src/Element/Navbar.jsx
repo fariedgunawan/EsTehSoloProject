@@ -10,7 +10,7 @@ const Navbar = () => {
         </h2>
       </div>
       <div className="center-side hidden sm:flex sm:gap-[40px]">
-        <h2 className="cursor-pointer">Tentang Kami</h2>
+        <h2 className="cursor-pointer" onClick={() => navigate("/tentangkami")}>Tentang Kami</h2>
         <h2 className="cursor-pointer" onClick={() => navigate("/menu")}>Menu</h2>
         <h2 className="cursor-pointer">Franchise</h2>
         <h2 className="cursor-pointer">Artikel</h2>
@@ -56,7 +56,7 @@ const Navbar = () => {
             </svg>
           </div>
           <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-white text-black rounded-box w-52">
-            <li>
+            <li onClick={() => navigate("/tentangkami")}>
               <a>Tentang Kami</a>
             </li>
             <li onClick={() => navigate("/menu")}>

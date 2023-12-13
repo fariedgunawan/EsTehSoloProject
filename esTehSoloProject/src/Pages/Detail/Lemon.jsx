@@ -27,7 +27,7 @@ const Lemon = () => {
           <div className="manis-caption flex-col flex items-center mt-[30px] sm:items-start">
             <h2 className="font-bold text-[20px] text-[#CFB310] sm:text-[40px]">LEMON TEA</h2>
             <h2 className="text-center font-medium text-[#CFB310] mt-[20px] sm:text-left">Penyajian teh dengan perpaduan lemon segar dalam keadaan dingin. Memberikan rasa asam dan manis dari lemon yang menyegarkan.</h2>
-            <h2 className="text-center text-[#CFB310] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp.7000,00</h2>
+            <h2 className="text-center text-[#CFB310] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp7.000,00</h2>
           </div>
         </div>
       </div>

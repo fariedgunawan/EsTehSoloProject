@@ -30,7 +30,7 @@ const Kampoel = () => {
             <h2 className="text-center font-medium text-[#A46F49] mt-[20px] sm:text-left">
               Penyajian teh dalam keaadan dingin yang diberi sentuhan jeruk nipis atau peras segar. Disebut kampoel karena kondisi jeruk kampoel (mengambang dalam bahasa Jawa) di dalamnya.
             </h2>
-            <h2 className="text-center text-[#A46F49] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp.5000,00</h2>
+            <h2 className="text-center text-[#A46F49] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp5.000,00</h2>
           </div>
         </div>
       </div>

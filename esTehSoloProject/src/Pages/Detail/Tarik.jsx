@@ -29,7 +29,7 @@ const Tarik = () => {
             <h2 className="text-center font-medium text-[#D2903B] mt-[20px] sm:text-left">
               Menggabungkan teh dengan susu dan krimer dalam penyajiannya yang dingin. Nama "tarik" mengacu pada cara penyajiannya yang unik, di mana teh ini disajikan dengan tindakan menuang yang dramatis yang menarik perhatian.
             </h2>
-            <h2 className="text-center text-[#D2903B] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp.7000,00</h2>
+            <h2 className="text-center text-[#D2903B] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp7.000,00</h2>
           </div>
         </div>
       </div>

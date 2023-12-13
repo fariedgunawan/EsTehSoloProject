@@ -27,7 +27,7 @@ const Jasmine = () => {
           <div className="manis-caption flex-col flex items-center mt-[30px] sm:items-start">
             <h2 className="font-bold text-[20px] text-[#AAA043] sm:text-[40px]">JASMINE TEA</h2>
             <h2 className="text-center font-medium text-[#AAA043] mt-[20px] sm:text-left">Daun teh yang direndam dengan bunga melati, menciptakan minuman teh segar dengan aroma bunga melati yang lembut.</h2>
-            <h2 className="text-center text-[#AAA043] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp.7000,00</h2>
+            <h2 className="text-center text-[#AAA043] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp7.000,00</h2>
           </div>
         </div>
       </div>

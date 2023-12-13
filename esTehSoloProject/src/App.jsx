@@ -15,13 +15,13 @@ import Jasmine from "./Pages/Detail/Jasmine";
 import Lemon from "./Pages/Detail/Lemon";
 import Lychee from "./Pages/Detail/Lychee";
 import Privacy from "./Pages/Privacy";
+import About from "./Pages/About";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Privacy />} />
-        <Route path="/landing" element={<Landing />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/estehmanis" element={<Manis />} />
         <Route path="/estehkampoel" element={<Kampoel />} />
@@ -34,6 +34,7 @@ function App() {
         <Route path="/estehjasmine" element={<Jasmine />} />
         <Route path="/estehlemon" element={<Lemon />} />
         <Route path="/estehleci" element={<Lychee />} />
+        <Route path="/tentangkami" element={<About />} />
       </Routes>
     </Router>
   );
