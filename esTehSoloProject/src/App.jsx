@@ -16,6 +16,13 @@ import Lemon from "./Pages/Detail/Lemon";
 import Lychee from "./Pages/Detail/Lychee";
 import Privacy from "./Pages/Privacy";
 import About from "./Pages/About";
+import Tentangkamu from "./Pages/Detail/Tentangkamu";
+import Kamudawet from "./Pages/Detail/Kamudawet";
+import Yakamuboba from "./Pages/Detail/Yakamuboba";
+import Estehsolo from "./Pages/Detail/Estehsolo";
+import Nyoju from "./Pages/Detail/Nyoju";
+import Tumbuhan from "./Pages/Detail/Tumbuhan";
+import Tongtong from "./Pages/Detail/Tongtong";
 
 function App() {
   return (
@@ -35,6 +42,13 @@ function App() {
         <Route path="/estehlemon" element={<Lemon />} />
         <Route path="/estehleci" element={<Lychee />} />
         <Route path="/tentangkami" element={<About />} />
+        <Route path="/tentangkamu" element={<Tentangkamu />} />
+        <Route path="/kamudawet" element={<Kamudawet />} />
+        <Route path="/yakamuboba" element={<Yakamuboba />} />
+        <Route path="/estehsolo" element={<Estehsolo />} />
+        <Route path="/nyoju" element={<Nyoju />} />
+        <Route path="/tumbuhan" element={<Tumbuhan />} />
+        <Route path="/tongtong" element={<Tongtong />} />
       </Routes>
     </Router>
   );
