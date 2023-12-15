@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container font-epilogue  text-white px-[35px] py-[35px] flex items-center justify-between">
       <div className="left-side">
-        <h2 className="text-[20px] sm:text-[25px] font-bold cursor-pointer" onClick={() => navigate("/")}>
+        <h2 className="text-[20px] drop-shadow-2xl sm:text-[25px] font-bold cursor-pointer" onClick={() => navigate("/")}>
           ES TEH S.O.L.O
         </h2>
       </div>

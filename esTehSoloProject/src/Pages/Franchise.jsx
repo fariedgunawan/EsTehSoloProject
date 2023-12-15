@@ -34,7 +34,7 @@ const Franchise = () => {
             </h2>
           </div>
         </div>
-
+        <h2 className="text-center mt-[30px] text-[20px] sm:text-[30px] font-bold sm:mt-[100px]">Paket Booth</h2>
         <div className="content-slider flex justify-center mt-[30px] flex-col items-center sm:mt-[100px]">
           <div className="scrollbar-hide overflow-x-scroll flex w-full no-scrollbar text-white font-epilogue font-semibold sm:pb-[25px] cursor-pointer gap-[40px]">
             <div className="content-1 relative flex w-[435px] min-w-[435px] flex-col items-center overflow-hidden">
@@ -52,8 +52,8 @@ const Franchise = () => {
           </div>
           <button className="btn text-[#075E54] sm:text-[20px]  px-[15px] py-[10px] rounded-lg shadow-lg mt-[40px] bg-white border-0 hover:text-white hover:bg-[#075E54]">Visit WhatsApp</button>
         </div>
-
-        <div className="franchise-table mt-[50px] flex justify-center">
+        <h2 className="mt-[50px] text-center font-bold text-[20px] sm:text-[30px] italic">Return of Investment (R.O.I)</h2>
+        <div className="franchise-table flex justify-center">
           <img src={roi} className="w-[600px]" alt="" />
         </div>
 

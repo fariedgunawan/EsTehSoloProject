@@ -48,7 +48,9 @@ const Landing = () => {
               Bermula dari sebuah tradisi yang terus menguatkan eksistensi. Adalah wangi, sepet, legi, kentel atau orang-orang menyebutnya "Wasgitel". Rasa otentik teh racikan asli perkebunan teh dari SOLO ini memberikan kesegeran dan rasa
               yang khas tiada duanya
             </h2>
-            <button className="btn px-[20px] py-[10px] bg-[#276631] mt-[10px] text-white font-epilogue rounded-xl sm:text-[20px]" onClick={() => navigate("/menu")}>Explore Drinks</button>
+            <button className="btn px-[20px] py-[10px] bg-[#276631] mt-[10px] text-white font-epilogue rounded-xl sm:text-[20px]" onClick={() => navigate("/menu")}>
+              Explore Drinks
+            </button>
           </div>
           <img src={explore} className="w-[350px] sm:w-[450px]" alt="" />
         </div>
@@ -74,7 +76,9 @@ const Landing = () => {
             <h2 className="text-[14px] text-center sm:w-[500px] sm:text-left sm:text-[20px]">
               Es Teh S.O.L.O salah satu kemitraan yang sangat populer di Indonesia. Konsep kemitraan yang mudah dan menguntungkan. Kesuksesan Es Teh S.O.L.O memberikan dampak positif bagi banyak orang
             </h2>
-            <button className="btn px-[20px] py-[10px] mt-[10px] rounded-xl sm:text-[20px] bg-white text-[#276631]" onClick={() => navigate("/franchise")}>Become Royal-tea</button>
+            <button className="btn px-[20px] py-[10px] mt-[10px] rounded-xl sm:text-[20px] bg-white text-[#276631]" onClick={() => navigate("/franchise")}>
+              Become Royal-tea
+            </button>
           </div>
           <img src={join} className="w-[350px] sm:w-[500px]" alt="" />
         </div>
@@ -101,7 +105,8 @@ const Landing = () => {
             {/* Add more carousel items as needed */}
           </div>
           <h2 className="text-[16px] text-[#276631] text-center font-medium leading-5 mt-[20px] sm:w-[900px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec dui nunc mattis enim. Viverra nibh cras pulvinar mattis nunc sed blandit.
+            Berasal dari kebun teh berkualitas yang di panen oleh petani-petani terbaik. Menghasilkan kualitas teh yang tidak tertandingi. Es Teh S.O.L.O bersama D.E.S.A hadir untuk konsumen Indonesia dan berkomitmen untuk mengutamakan mutu
+            dan cita rasa tiap tetes tehnya.
           </h2>
         </div>
       </div>
