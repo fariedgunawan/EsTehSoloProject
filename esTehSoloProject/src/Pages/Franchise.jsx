@@ -59,7 +59,7 @@ const Franchise = () => {
 
         <div className="franchise-contact flex items-center flex-col pb-[20px]">
           <h2 className="text-[20px] font-semibold sm:text-[30px]">Contact Us:</h2>
-          <h2 className="font-semibold mt-[20px] sm:text-[30px]">Es Teh S.O.L.O</h2>
+          <h2 className="font-bold mt-[20px] sm:text-[30px]">Es Teh S.O.L.O</h2>
           <h2 className="font-semibold sm:text-[20px]">ES TEH SOLO JAWA TENGAH - JAWA TIMUR</h2>
           <h2 className="sm:text-[20px]">+62813 2882 7224</h2>
           <h2 className="font-semibold sm:text-[20px]">ES TEH SOLO JABODETABEK - LUAR JAWA</h2>
