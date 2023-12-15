@@ -21,15 +21,15 @@ const About = () => {
   }, []);
   return (
     <div className="about-container bg-white min-h-screen font-epilogue">
-      <div className="heading-about bg-[#276631]">
+      <div className="heading-about bg-black">
         <Navbar />
       </div>
-      <div className="about-content px-[35px]">
-        <div className="about-title flex flex-col items-center mt-[30px]">
+      <div className="about-content">
+        <div className="about-title flex flex-col items-center mt-[30px] px-[35px]">
           <h2 className="text-black font-bold text-[20px] sm:text-[30px]">PT. Esok Harapan Bangsa</h2>
           <img src={esokharapanbangsa} className="w-[300px] sm:w-[400px] mt-[20px]" alt="" />
         </div>
-        <div className="about-caption">
+        <div className="about-caption px-[35px]">
           <div className="perusahaan-kami flex flex-col items-center text-black sm:items-start">
             <h2 className="text-[20px] font-semibold mt-[40px] sm:text-[30px]">Tentang Perusahaan Kami</h2>
             <h2 className="text-[15px] text-center mt-[10px]  sm:text-[20px] sm:text-justify">
@@ -52,10 +52,10 @@ const About = () => {
             <h2 className="mt-[10px] text-[15px] text-center sm:text-[20px] sm:text-justify">Fokus perusahaan adalah memberikan kualitas terbaik, menjaga kebersihan, dan menjadikan produk unggulan.</h2>
           </div>
         </div>
-        <h2 className="text-[20px] text-black font-bold flex justify-center mt-[40px] sm:text-[30px] sm:mt-[130px]">Brand Kami</h2>
+        <h2 className="text-[20px] text-black font-bold flex justify-center mt-[40px] sm:text-[30px] sm:mt-[130px] px-[35px]">Brand Kami</h2>
         <ScrollBrand />
         <h2 className="text-[20px] text-black font-bold flex justify-center mt-[40px] sm:text-[30px] sm:mt-[30px]">Our Great Team</h2>
-        <div className="great-team-container flex justify-center px-0 sm:px-[300px] mt-[40px]">
+        <div className="great-team-container flex justify-center sm:px-[300px] mt-[40px] px-[35px]">
           <div className="great-team-pict flex gap-[20px] flex-wrap justify-center">
             <img src={gt1} className="w-[200px]" alt="" />
             <img src={gt2} className="w-[200px]" alt="" />
@@ -70,8 +70,8 @@ const About = () => {
             <img src={gt12} className="w-[200px]" alt="" />
           </div>
         </div>
-        <div className="location mt-[70px] pb-[100px] sm:flex sm:justify-between sm:items-center sm:px-[50px]">
-          <div className="office flex flex-col items-center text-black sm:mt-[60px]">
+        <div className="location pb-[50px] pt-[50px] mt-[50px] sm:flex sm:justify-between sm:items-center bg-black text-white px-[35px] sm:px-[100px]">
+          <div className="office flex flex-col items-center  sm:mt-[60px]">
             <h2 className="text-[20px] font-bold">Office</h2>
             <h2 className="text-center mt-[20px] sm:w-[400px]">A Nation Space, Jl. Adi Sucipto No.42, Puspan, Blulukan, Kec. Colomadu, Kabupaten Karanganyar, Jawa Tengah 57174</h2>
             <button
@@ -84,12 +84,12 @@ const About = () => {
               Visit Maps
             </button>
           </div>
-          <div className="office flex flex-col items-center text-black mt-[40px] sm:mt-0">
+          <div className="office flex flex-col items-center  mt-[40px] sm:mt-0">
             <h2 className="text-[20px] font-bold">Working Hours</h2>
             <h2 className="text-center mt-[20px]">Monday - Friday, 08.00 - 16.00</h2>
             <h2 className="text-center ">Saturday, 09.00 - 15.00</h2>
           </div>
-          <div className="office flex flex-col items-center text-black mt-[40px] sm:mt-0">
+          <div className="office flex flex-col items-center  mt-[40px] sm:mt-0">
             <h2 className="text-[20px] font-bold">Contact Us</h2>
             <h2 className="text-center mt-[20px]">Support@esokharapanbangsa.com</h2>
           </div>

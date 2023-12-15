@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehcoklat from "../../assets/estehcoklat.png";
+import { useNavigate } from "react-router-dom";
 const Coklat = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -42,7 +44,9 @@ const Coklat = () => {
             <h2 className="text-[14px] text-center sm:w-[500px] sm:text-left sm:text-[20px]">
               Es Teh S.O.L.O salah satu kemitraan yang sangat populer di Indonesia. Konsep kemitraan yang mudah dan menguntungkan. Kesuksesan Es Teh S.O.L.O memberikan dampak positif bagi banyak orang
             </h2>
-            <button className="px-[20px] py-[10px] mt-[10px] rounded-xl sm:text-[20px] bg-[#6C3925] text-white">Become Royal-tea</button>
+            <button className="px-[20px] py-[10px] mt-[10px] rounded-xl sm:text-[20px] bg-[#6C3925] text-white" onClick={() => navigate("/franchise")}>
+              Become Royal-tea
+            </button>
           </div>
           <img src={join} className="w-[350px] sm:w-[500px]" alt="" />
         </div>

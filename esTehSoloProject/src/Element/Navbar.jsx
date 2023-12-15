@@ -10,9 +10,15 @@ const Navbar = () => {
         </h2>
       </div>
       <div className="center-side hidden sm:flex sm:gap-[40px]">
-        <h2 className="cursor-pointer" onClick={() => navigate("/tentangkami")}>Tentang Kami</h2>
-        <h2 className="cursor-pointer" onClick={() => navigate("/menu")}>Menu</h2>
-        <h2 className="cursor-pointer">Franchise</h2>
+        <h2 className="cursor-pointer" onClick={() => navigate("/tentangkami")}>
+          Tentang Kami
+        </h2>
+        <h2 className="cursor-pointer" onClick={() => navigate("/menu")}>
+          Menu
+        </h2>
+        <h2 className="cursor-pointer" onClick={() => navigate("/franchise")}>
+          Franchise
+        </h2>
         <h2 className="cursor-pointer">Artikel</h2>
       </div>
       <div className="right-side hidden sm:flex gap-[20px]">
@@ -62,7 +68,7 @@ const Navbar = () => {
             <li onClick={() => navigate("/menu")}>
               <a>Menu</a>
             </li>
-            <li>
+            <li onClick={() => navigate("/franchise")}>
               <a>Franchise</a>
             </li>
             <li>
