@@ -23,6 +23,7 @@ import Estehsolo from "./Pages/Detail/Estehsolo";
 import Nyoju from "./Pages/Detail/Nyoju";
 import Tumbuhan from "./Pages/Detail/Tumbuhan";
 import Tongtong from "./Pages/Detail/Tongtong";
+import Franchise from "./Pages/Franchise";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
         <Route path="/nyoju" element={<Nyoju />} />
         <Route path="/tumbuhan" element={<Tumbuhan />} />
         <Route path="/tongtong" element={<Tongtong />} />
+        <Route path="/franchise" element={<Franchise />} />
       </Routes>
     </Router>
   );
