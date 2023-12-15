@@ -18,8 +18,8 @@ const Estehsolo = () => {
           <div className="caption flex-col flex items-center sm:items-start">
             <h2 className="text-[20px] font-semibold sm:text-[30px]">Es Teh S.O.L.O (2021)</h2>
             <h2 className="text-center mt-[20px] sm:text-left sm:text-[20px]">
-              Es Teh S.O.L.O mengusung tema unik yang berakar pada tahun 1968, yakni "Bermula dari tradisi, terus menguatkan eksistensi. Wangi, sepet, legi, kentel 'Wasgitel' adalah rasa khasnya. Untuk kesegaran es teh yang otentik. Dari
-              dulu, kini, dan nanti."
+              Es Teh S.O.L.O mengusung tema unik yang berakar pada tahun 1968, yakni "Bermula dari tradisi, terus menguatkan eksistensi. Wangi, sepet, legi, kentel <span className="italic">'Wasgitel'</span> adalah rasa khasnya. Untuk
+              kesegaran es teh yang otentik. Dari dulu, kini, dan nanti."
             </h2>
           </div>
         </div>

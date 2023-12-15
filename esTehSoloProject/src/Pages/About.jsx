@@ -33,16 +33,18 @@ const About = () => {
           <div className="perusahaan-kami flex flex-col items-center text-black sm:items-start">
             <h2 className="text-[20px] font-semibold mt-[40px] sm:text-[30px]">Tentang Perusahaan Kami</h2>
             <h2 className="text-[15px] text-center mt-[10px]  sm:text-[20px] sm:text-justify">
-              Pioneer perusahaan yang bergerak dibidang F&B yang berfokus ke franchise sejak 2010. Puluhan brand F&B telah diterbitkan dengan mengusung semangat kerja anak muda. Kami berkomitmen untuk berkontribusi terhadap keberhasilan
-              mitra kami. Dengan tekat yang kuat terus bergerak kedepan agar esok ini dan nanti mampu mampu menghadapi rintangan apapun bersama PT ESOK HARAPAN BANGSA.
+              Pioneer perusahaan yang bergerak dibidang <span className="italic">F&B</span> yang berfokus ke <span className="italic">franchise</span> sejak 2010. Puluhan brand <span className="italic">F&B</span> telah diterbitkan dengan
+              mengusung semangat kerja anak muda. Kami berkomitmen untuk berkontribusi terhadap keberhasilan mitra kami. Dengan tekat yang kuat terus bergerak kedepan agar esok ini dan nanti mampu mampu menghadapi rintangan apapun bersama
+              PT ESOK HARAPAN BANGSA.
             </h2>
-            <h2 className="mt-[20px] font-semibold sm:text-[20px]">Better Place, Good Life.</h2>
+            <h2 className="mt-[20px] font-semibold sm:text-[20px] italic">Better Place, Good Life.</h2>
           </div>
           <div className="visi-perusahaan flex flex-col items-center text-center text-black sm:items-start">
             <h2 className="text-[20px] font-semibold mt-[40px] sm:text-[30px]">Visi Perusahaan</h2>
             <h2 className="mt-[10px] text-[15px] sm:text-[20px] sm:text-justify">
-              PT. Esok Harapan Bangsa bertujuan untuk memajukan usaha mitra dengan komitmen terhadap pengembangan dan konsep modern, menciptakan kenyamanan serta kepercayaan dalam kerjasama. Sebagai perusahaan franchise yang berfokus di
-              bidang food and beverages, PT. Esok Harapan Bangsa berusaha menjadi mitra kesuksesan Anda dan berkontribusi pada kemajuan bangsa Indonesia.
+              PT. Esok Harapan Bangsa bertujuan untuk memajukan usaha mitra dengan komitmen terhadap pengembangan dan konsep modern, menciptakan kenyamanan serta kepercayaan dalam kerjasama. Sebagai perusahaan{" "}
+              <span className="italic">franchise </span>yang berfokus di bidang <span className="italic">food and beverages</span>, PT. Esok Harapan Bangsa berusaha menjadi mitra kesuksesan Anda dan berkontribusi pada kemajuan bangsa
+              Indonesia.
             </h2>
           </div>
           <div className="misi-perusahaan flex flex-col items-center text-black sm:items-start">
@@ -84,7 +86,8 @@ const About = () => {
           </div>
           <div className="office flex flex-col items-center text-black mt-[40px] sm:mt-0">
             <h2 className="text-[20px] font-bold">Working Hours</h2>
-            <h2 className="text-center mt-[20px]">Monday - Friday, 08.00 - 16.00 Saturday, 09.00 - 15.00</h2>
+            <h2 className="text-center mt-[20px]">Monday - Friday, 08.00 - 16.00</h2>
+            <h2 className="text-center ">Saturday, 09.00 - 15.00</h2>
           </div>
           <div className="office flex flex-col items-center text-black mt-[40px] sm:mt-0">
             <h2 className="text-[20px] font-bold">Contact Us</h2>
