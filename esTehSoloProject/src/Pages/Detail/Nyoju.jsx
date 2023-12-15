@@ -18,7 +18,8 @@ const Nyoju = () => {
           <div className="caption flex-col flex items-center sm:items-start">
             <h2 className="text-[20px] font-semibold sm:text-[30px]">Nyoju (2021)</h2>
             <h2 className="text-center mt-[20px] sm:text-left sm:text-[20px]">
-              Nyoju adalah sebuah merek minuman yang menawarkan berbagai varian rasa, termasuk cookies keju, cookies drink + keju, dan strawberry drink + keju. Harga produk kami berkisar antara 14.000 rupiah.
+              Nyoju adalah sebuah merek minuman yang menawarkan berbagai varian rasa, termasuk <span className="italic">cookies</span> keju, <span className="italic">cookies drink</span> + keju, dan{" "}
+              <span className="italic">strawberry</span> drink + keju. Harga produk kami berkisar antara 14.000 rupiah.
             </h2>
           </div>
         </div>

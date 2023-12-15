@@ -26,8 +26,9 @@ const Kamudawet = () => {
         <div className="gerobak mt-[60px] flex flex-col items-center sm:mt-[30px]">
           <img src={gbkamudawet} className="w-[350px] sm:w-[450px]" alt="" />
           <h2 className="text-center mt-[20px] sm:w-[1000px] sm:text-[20px] sm:mt-[30px]">
-            Dengan keyakinan dari mitra kami, kami terus bersemangat membantu seluruh mitra kami menggapai sukses bersama “Kamu dan Dawet”, dengan semangat dari mitra kami, dan arahan yang tepat dari team management kami. Banyak mitra kami
-            dari seluruh Indonesia membagikan cerita suksesnya kepada kami. Mulai dari memiliki beberapa cabang outlet “Kamu dan Dawet”, hingga dapat membeli kendaraan dan rumah impian.
+            Dengan keyakinan dari mitra kami, kami terus bersemangat membantu seluruh mitra kami menggapai sukses bersama “Kamu dan Dawet”, dengan semangat dari mitra kami, dan arahan yang tepat dari{" "}
+            <span className="italic">team management</span> kami. Banyak mitra kami dari seluruh Indonesia membagikan cerita suksesnya kepada kami. Mulai dari memiliki beberapa cabang <span className="italic">outlet</span> “Kamu dan Dawet”,
+            hingga dapat membeli kendaraan dan rumah impian.
           </h2>
           <div className="contact flex flex-col items-center mt-[40px] sm:mt-[60px]">
             <h2 className="font-semibold text-[20px] sm:text-[30px]">Contact</h2>

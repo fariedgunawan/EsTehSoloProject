@@ -18,7 +18,8 @@ const Tentangkamu = () => {
           <div className="caption flex-col flex items-center sm:items-start">
             <h2 className="text-[20px] font-semibold sm:text-[30px]">Tentang Kamu Drink (2019)</h2>
             <h2 className="text-center mt-[20px] sm:text-left sm:text-[20px]">
-              Tentang Kamu Drink adalah merek minuman signature yang menawarkan berbagai varian rasa dengan topping caramel crunch yang gurih. Beberapa varian rasa yang ditawarkan antara lain Tentang Aku, Tentang Rindu, dan Tentang Kamu.
+              Tentang Kamu Drink adalah merek minuman <span className="italic">signature</span> yang menawarkan berbagai varian rasa dengan topping <span className="italic">caramel crunch</span> yang gurih. Beberapa varian rasa yang
+              ditawarkan antara lain Tentang Aku, Tentang Rindu, dan Tentang Kamu.
             </h2>
           </div>
         </div>

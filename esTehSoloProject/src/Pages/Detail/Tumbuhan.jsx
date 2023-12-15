@@ -18,16 +18,16 @@ const Tumbuhan = () => {
           <div className="caption flex-col flex items-center sm:items-start">
             <h2 className="text-[20px] font-semibold sm:text-[30px]">Tumbuhan Smoothies (2021)</h2>
             <h2 className="text-center mt-[20px] sm:text-left sm:text-[20px]">
-              Produk Tumbuhan Smoothies hadir dan dikemas untuk Anda yang ingin membuka peluang usaha kekinian dengan harga yang terjangkau dan desain yang menarik. Dengan rasa yang bervariasi, Tumbuhan Smoothies memberikan kualitas terbaik
-              hanya untuk Anda.
+              Produk Tumbuhan <span className="italic">Smoothies</span> hadir dan dikemas untuk Anda yang ingin membuka peluang usaha kekinian dengan harga yang terjangkau dan desain yang menarik. Dengan rasa yang bervariasi, Tumbuhan
+              Smoothies memberikan kualitas terbaik hanya untuk Anda.
             </h2>
           </div>
         </div>
         <div className="gerobak mt-[60px] flex flex-col items-center sm:mt-[30px]">
           <img src={gbtumbuhan} className="w-[350px] sm:w-[450px]" alt="" />
           <h2 className="text-center mt-[20px] sm:w-[1000px] sm:text-[20px] sm:mt-[30px]">
-            Kami mengundang Anda menjadi bagian mitra kami. Produk yang kami tawarkan antara lain cookies, vanilla, dan redberry. Dengan racikan resep yang unik menciptakan minuman yang manis dan segar. Kami menawarkan paket usaha dengan
-            potongan hingga 50% dan dapatkan benefit lainnya.
+            Produk Tumbuhan Smoothies hadir dan dikemas untuk Anda yang ingin membuka peluang usaha kekinian dengan harga yang terjangkau dan desain yang menarik. Dengan rasa yang bervariasi, Tumbuhan Smoothies memberikan kualitas terbaik
+            hanya untuk Anda.
           </h2>
           <div className="contact flex flex-col items-center mt-[40px] sm:mt-[60px]">
             <h2 className="font-semibold text-[20px] sm:text-[30px]">Contact</h2>
