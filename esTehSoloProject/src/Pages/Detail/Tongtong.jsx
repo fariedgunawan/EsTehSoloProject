@@ -9,7 +9,7 @@ const Tongtong = () => {
   }, []);
   return (
     <div className="tentangkamu-body bg-white min-h-screen font-epilogue text-black">
-      <div className="tentangkamu-head bg-[#276631]">
+      <div className="tentangkamu-head bg-black">
         <Navbar />
       </div>
       <div className="tentangkamu-container px-[35px]">
