@@ -24,6 +24,13 @@ import Nyoju from "./Pages/Detail/Nyoju";
 import Tumbuhan from "./Pages/Detail/Tumbuhan";
 import Tongtong from "./Pages/Detail/Tongtong";
 import Franchise from "./Pages/Franchise";
+import Aritkel from "./Pages/Artikel";
+import Fea1 from "./Pages/Detail/Fea1";
+import Fea2 from "./Pages/Detail/Fea2";
+import Ar1 from "./Pages/Detail/Ar1";
+import Ar2 from "./Pages/Detail/Ar2";
+import Ar3 from "./Pages/Detail/Ar3";
+import Artikel from "./Pages/Artikel";
 
 function App() {
   return (
@@ -51,6 +58,12 @@ function App() {
         <Route path="/tumbuhan" element={<Tumbuhan />} />
         <Route path="/tongtong" element={<Tongtong />} />
         <Route path="/franchise" element={<Franchise />} />
+        <Route path="/artikel" element={<Artikel />} />
+        <Route path="/feature1" element={<Fea1 />} />
+        <Route path="/feature2" element={<Fea2 />} />
+        <Route path="/artikel1" element={<Ar1 />} />
+        <Route path="/artikel2" element={<Ar2 />} />
+        <Route path="/artikel3" element={<Ar3 />} />
       </Routes>
     </Router>
   );

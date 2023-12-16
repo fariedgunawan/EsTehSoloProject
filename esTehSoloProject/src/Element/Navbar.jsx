@@ -19,7 +19,9 @@ const Navbar = () => {
         <h2 className="cursor-pointer" onClick={() => navigate("/franchise")}>
           Franchise
         </h2>
-        <h2 className="cursor-pointer">Artikel</h2>
+        <h2 className="cursor-pointer" onClick={() => navigate("/artikel")}>
+          Artikel
+        </h2>
       </div>
       <div className="right-side hidden sm:flex gap-[20px]">
         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -71,7 +73,7 @@ const Navbar = () => {
             <li onClick={() => navigate("/franchise")}>
               <a>Franchise</a>
             </li>
-            <li>
+            <li onClick={() => navigate("/artikel")}>
               <a>Artikel</a>
             </li>
             <li>
