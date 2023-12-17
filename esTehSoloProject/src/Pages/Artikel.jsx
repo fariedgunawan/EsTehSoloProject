@@ -13,6 +13,7 @@ import artikel7 from "../assets/artikel7cov.jpg";
 import artikel8 from "../assets/artikel8cov.jpg";
 import artikel10 from "../assets/artikel10cov.jpg";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../Element/BottomBar";
 
 const Artikel = () => {
   const navigate = useNavigate();
@@ -121,6 +122,7 @@ const Artikel = () => {
         </div>
       </div>
       {/* Artikel*/}
+      <BottomBar />
     </div>
   );
 };

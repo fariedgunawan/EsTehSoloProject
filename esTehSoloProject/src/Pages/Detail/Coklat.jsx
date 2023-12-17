@@ -3,6 +3,7 @@ import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehcoklat from "../../assets/estehcoklat.png";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../../Element/BottomBar";
 const Coklat = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -53,6 +54,7 @@ const Coklat = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };

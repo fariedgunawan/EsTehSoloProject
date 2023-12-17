@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehblackcurrant from "../../assets/estehblackcurrant.png";
+import BottomBar from "../../Element/BottomBar";
 const Blackcurrant = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -51,6 +52,7 @@ const Blackcurrant = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };

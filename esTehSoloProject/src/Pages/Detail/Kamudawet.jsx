@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import kamudawet from "../../assets/kamudawet.png";
 import gbkamudawet from "../../assets/gbkamudawet.png";
 import ScrollBrand from "../../Element/ScrollBrand";
+import BottomBar from "../../Element/BottomBar";
+import BottomBarBlack from "../../Element/BottomBarBlack";
 const Kamudawet = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -18,8 +20,8 @@ const Kamudawet = () => {
           <div className="caption flex-col flex items-center sm:items-start">
             <h2 className="text-[20px] font-semibold sm:text-[30px]">Kamu Dan Dawet (2020)</h2>
             <h2 className="text-center mt-[20px] sm:text-left sm:text-[20px]">
-              Mengungsung konsep minuman tradisional Indonesia yang dikemas secara modern dan kekinian, untuk melestarikan budaya dan kekayaan Indonesia, kami bertekat untuk terus menjaga cita rasa ini serta kami akan terus
-              memperkenalkannya ke seluruh daerah yang ada di Indonesia bahkan dunia.
+              Mengusung konsep minuman tradisional Indonesia yang dikemas secara <span className="italic">modern</span> dan kekinian untuk melestarikan budaya dan kekayaan Indonesia, kami bertekad untuk terus menjaga cita rasa ini serta
+              kami akan terus memperkenalkannya ke seluruh daerah yang ada di Indonesia bahkan dunia.
             </h2>
           </div>
         </div>
@@ -41,6 +43,7 @@ const Kamudawet = () => {
         <h2 className="text-[20px] text-black font-bold flex justify-center mt-[60px] sm:text-[30px] sm:mt-[130px]">Brand Lainnya</h2>
         <ScrollBrand />
       </div>
+      <BottomBarBlack />
     </div>
   );
 };
