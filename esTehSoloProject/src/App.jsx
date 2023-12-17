@@ -31,6 +31,13 @@ import Ar1 from "./Pages/Detail/Ar1";
 import Ar2 from "./Pages/Detail/Ar2";
 import Ar3 from "./Pages/Detail/Ar3";
 import Artikel from "./Pages/Artikel";
+import Ar4 from "./Pages/Detail/Ar4";
+import Ar5 from "./Pages/Detail/Ar5";
+import Ar6 from "./Pages/Detail/Ar6";
+import Ar7 from "./Pages/Detail/Ar7";
+import Ar8 from "./Pages/Detail/Ar8";
+import Ar9 from "./Pages/Detail/Ar9";
+import Ar10 from "./Pages/Detail/Ar10";
 
 function App() {
   return (
@@ -64,6 +71,13 @@ function App() {
         <Route path="/artikel1" element={<Ar1 />} />
         <Route path="/artikel2" element={<Ar2 />} />
         <Route path="/artikel3" element={<Ar3 />} />
+        <Route path="/artikel4" element={<Ar4 />} />
+        <Route path="/artikel5" element={<Ar5 />} />
+        <Route path="/artikel6" element={<Ar6 />} />
+        <Route path="/artikel7" element={<Ar7 />} />
+        <Route path="/artikel8" element={<Ar8 />} />
+        <Route path="/artikel9" element={<Ar9 />} />
+        <Route path="/artikel10" element={<Ar10 />} />
       </Routes>
     </Router>
   );
