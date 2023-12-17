@@ -16,7 +16,9 @@ const Pr = () => {
           <h2 className="italic font-bold">FOR IMMEDIATE RELEASE</h2>
           <img src={estehsolonobg} className="w-[150px] sm:w-[200px]" alt="" />
         </div>
-        <h2 className="text-center font-bold">Kolaborasi Ter-Hype! Es Teh S.O.L.O dan Ban Ban Tea Menghadirkan Menu Jasmine Chizu Tea!</h2>
+        <h2 className="text-center font-bold">
+          Kolaborasi Ter-<span className="italic">Hype</span>! Es Teh S.O.L.O dan Ban Ban Tea Menghadirkan Menu Jasmine Chizu Tea!
+        </h2>
         <h2 className="mt-[20px]">
           <span className="font-bold">Jakarta, 25 Oktober 2023</span> - Es Teh S.O.L.O, merek minuman teh khas Solo dengan cita rasa wagistel (wangi, sepet, legi, kentel) di bawah naungan PT. Esok Harapan Bangsa dengan bangga mengumumkan
           kolaborasi spesial mereka dengan Ban Ban Tea, merek minuman spesialis <span className="italic">cheese tea</span> ternama. Kolaborasi ini menghasilkan 'Jasmine Chizu Tea', sebuah kreasi yang memadukan cita rasa teh khas Es Teh
