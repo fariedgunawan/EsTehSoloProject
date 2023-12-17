@@ -15,8 +15,8 @@ const Ar10 = () => {
       <div className="fea-content px-[35px] font-epilogue text-justify mt-[20px] text-black sm:text-[20px]">
         <h2 className="text-center font-bold">Sebuah Komitmen Es Teh S.O.L.O untuk Membangun Masjid</h2>
         <h2 className="mt-[20px]">
-          Jakarta, 5 Desember 2023 - Dalam sebuah langkah revolusioner, Es Teh S.O.L.O telah mempersembahkan segala laba yang dihasilkan tahun 2023 untuk proyek pembangunan masjid. Inilah bukti nyata komitmen kami untuk tidak hanya
-          merayakan kelezatan di setiap tetes es teh, tetapi juga untuk merangkul keberagaman dan membangun komunitas yang berdampingan dengan cinta dan kebaikan.
+          <span className="font-bold">Jakarta, 5 Desember 2023</span> - Dalam sebuah langkah revolusioner, Es Teh S.O.L.O telah mempersembahkan segala laba yang dihasilkan tahun 2023 untuk proyek pembangunan masjid. Inilah bukti nyata
+          komitmen kami untuk tidak hanya merayakan kelezatan di setiap tetes es teh, tetapi juga untuk merangkul keberagaman dan membangun komunitas yang berdampingan dengan cinta dan kebaikan.
         </h2>
         <h2 className="mt-[20px]">
           Keputusan ini tidak hanya menciptakan jejak sejarah dalam dunia minuman, tetapi juga memberikan arti yang mendalam pada setiap gelas Es Teh S.O.L.O yang Anda nikmati. Setiap tegukan adalah kontribusi langsung Anda untuk
