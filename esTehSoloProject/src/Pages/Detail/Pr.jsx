@@ -16,13 +16,11 @@ const Pr = () => {
           <h2 className="italic font-bold">FOR IMMEDIATE RELEASE</h2>
           <img src={estehsolonobg} className="w-[150px] sm:w-[200px]" alt="" />
         </div>
-        <h2 className="text-center font-bold sm:flex sm:flex-col">
-          Kolaborasi Ter-Hype! Es Teh S.O.L.O dan Ban Ban Tea <span>Menghadirkan Menu Jasmine Chizu Tea!</span>
-        </h2>
+        <h2 className="text-center font-bold">Kolaborasi Ter-Hype! Es Teh S.O.L.O dan Ban Ban Tea Menghadirkan Menu Jasmine Chizu Tea!</h2>
         <h2 className="mt-[20px]">
           <span className="font-bold">Jakarta, 25 Oktober 2023</span> - Es Teh S.O.L.O, merek minuman teh khas Solo dengan cita rasa wagistel (wangi, sepet, legi, kentel) di bawah naungan PT. Esok Harapan Bangsa dengan bangga mengumumkan
           kolaborasi spesial mereka dengan Ban Ban Tea, merek minuman spesialis <span className="italic">cheese tea</span> ternama. Kolaborasi ini menghasilkan 'Jasmine Chizu Tea', sebuah kreasi yang memadukan cita rasa teh khas Es Teh
-          S.O.L.O dengan <span className="italic">topping</span>
+          S.O.L.O dengan <span className="italic">topping </span>
           khas <span className="italic">chizu cream cheese</span> yang ringan, gurih, dan manis dari Ban Ban Tea. Selain itu, terdapat sedikit perbedaan dalam Jasmine Chizu Tea ini, racikan tehnya merupakan gabungan dari Jasmine Tea milik
           Es Teh S.O.L.O dan Jasmine Tea milik Ban Ban Tea yang membuatnya semakin unik.
         </h2>
@@ -51,7 +49,9 @@ const Pr = () => {
         </h2>
         <div className="img flex flex-col items-center mt-[20px]">
           <img src={pressrelease2} className="w-[450px]" alt="" />
-          <h2 className="text-[16px] mt-[10px]">Gambar Special Merchandise Tumbler</h2>
+          <h2 className="text-[16px] mt-[10px]">
+            Gambar <span className="italic">Special Merchandise</span> Tumbler
+          </h2>
         </div>
         <h2 className="text-center font-bold mt-[50px] ">###</h2>
         <h2 className="font-bold mt-[50px]">Untuk informasi lebih lanjut, silakan hubungi:</h2>
@@ -61,7 +61,8 @@ const Pr = () => {
         <h2>Email : alvinlievaldi@estehsolo.com</h2>
         <h2 className="font-bold mt-[40px]">Tentang Es Teh S.O.L.O:</h2>
         <h2 className="mt-[20px]">
-          Es Teh S.O.L.O adalah brand minuman teh khas Solo dari PT. Esok Harapan Bangsa, pioner di industri Food and Beverages yang berfokus pada franchise minuman sejak 2010 dengan puluhan brand FnB yang telah diterbitkan.
+          Es Teh S.O.L.O adalah <span className="italic">brand</span> minuman teh khas Solo dari PT. Esok Harapan Bangsa, <span className="italic">pioneer</span> di industri <span className="italic">Food and Beverages</span> yang berfokus
+          pada franchise minuman sejak 2010 dengan puluhan <span className="italic">brand FnB</span> yang telah diterbitkan.
         </h2>
       </div>
       <BottomBar />
