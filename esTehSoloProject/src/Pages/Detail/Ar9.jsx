@@ -26,12 +26,11 @@ const Ar9 = () => {
         <div className="img flex flex-col items-center mt-[20px]">
           <img src={artikel9} className="w-[400px] sm:w-[450px]" alt="" />
           <h2 className="text-[16px] mt-[10px]">Ilustrasi</h2>
-          <h2 className="text-[16px] mt-[10px]">Poster Promo Spesial Penghargaan Pelanggan</h2>
         </div>
         <h2 className="mt-[20px]">
           Sebagai ungkapan rasa terima kasih kami kepadamu pelanggan setia yang telah bersama kami dalam setiap tegukan dan setiap langkah, Es Teh S.O.L.O dengan bangga mempersembahkan Promo Spesial Penghargaan Pelanggan! Mulai hari ini,
-          nikmati diskon 20% untuk setiap pembelian Es Teh S.O.L.O. Gunakan kode promo <span className="font-bold">TERIMAKASIH20</span> saat melakukan pemesanan melalui aplikasi atau di outlet kami. Promo ini hanya berlaku sampai akhir
-          Desember 2023.
+          nikmati diskon 20% untuk setiap pembelian Es Teh S.O.L.O. Gunakan kode promo <span className="font-bold">TERIMAKASIH20</span> saat melakukan pemesanan melalui aplikasi atau di <span className="italic">outlet</span> kami. Promo ini
+          hanya berlaku sampai akhir Desember 2023.
         </h2>
         <h2 className="mt-[20px]">
           Terima kasih telah menjadi bagian dari perjalanan kami. Bersama Es Teh S.O.L.O, kami akan selalu mendengarkan suara dan keluh kesahmu. Jadikan setiap tegukan Es Teh S.O.LO sebagai penyemangat dalam setiap perjalanan dan perjuangan

@@ -38,7 +38,7 @@ const Menu = () => {
         <path fill="#276631" fill-opacity="1" d="M0,160L80,149.3C160,139,320,117,480,138.7C640,160,800,224,960,218.7C1120,213,1280,139,1360,101.3L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
       </svg>
       {/*heading */}
-      <div className="categories-product flex flex-col justify-center items-center">
+      <div className="categories-product flex flex-col justify-center items-center px-[35px]">
         <h2 className="text-[20px] font-bold text-[#276631] sm:text-[30px]">Variasi Packaging</h2>
         <div className="scrollbar-hide overflow-x-scroll flex w-full no-scrollbar text-[#276631] font-epilogue font-semibold sm:pb-[25px] items-center mt-[30px] sm:justify-center sm:gap-[40px]">
           <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
@@ -51,7 +51,7 @@ const Menu = () => {
           </div>
           <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
             <img src={cupbening} className="w-48 sm:w-60 h-auto min-w-[100px]" alt="Esteh Manis" />
-            <h2 className="font-bold mt-[9px]">Gelas Plastik (16oz / 22oz)</h2>
+            <h2 className="font-bold mt-[9px]">Gelas Plastik (16 oz / 22 oz)</h2>
           </div>
         </div>
       </div>
