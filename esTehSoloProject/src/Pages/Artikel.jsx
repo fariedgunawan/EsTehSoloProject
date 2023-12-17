@@ -31,7 +31,7 @@ const Artikel = () => {
       <h2 className="text-[20px] text-center mt-[20px] font-bold">Press Release</h2>
       {/*press release */}
       <div className="artikel-bag1 px-[35px] flex justify-center mt-[20px]">
-        <div className="bag1-1 flex flex-col w-[300px] sm:w-[450px] px-[20px] py-[10px] shadow-xl rounded-xl cursor-pointer">
+        <div className="bag1-1 flex flex-col w-[300px] sm:w-[450px] px-[20px] py-[10px] shadow-xl rounded-xl cursor-pointer" onClick={() => navigate("/pressrelease")}>
           <img src={pressrelease} className="w-full rounded-md" alt="" />
           <h2 className="font-semibold mt-[10px] sm:text-[16px]">Kolaborasi Ter-Hype! Es Teh S.O.L.O dan Ban Ban Tea Menghadirkan Menu Jasmine Chizu Tea!</h2>
           <h2 className="text-[12px] text-slate-500 mt-[10px] sm:text-[14px]">Jakarta, 25 Oktober 2023 - Es Teh S.O.L.O, merek minuman teh khas Solo dengan cita rasa...</h2>
