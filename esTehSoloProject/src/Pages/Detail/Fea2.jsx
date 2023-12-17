@@ -1,3 +1,4 @@
+import BottomBar from "../../Element/BottomBar";
 import Navbar from "../../Element/Navbar";
 import feature2 from "../../assets/feature2.png";
 import React, { useEffect } from "react";
@@ -11,11 +12,11 @@ const Fea2 = () => {
         <Navbar />
       </div>
 
-      <div className="fea-content px-[35px] font-epilogue text-justify mt-[20px] text-black sm:text-[20px]">
+      <div className="fea-content px-[35px] font-epilogue text-justify mt-[20px] text-black sm:text-[20px] pb-[50px]">
         <h2 className="text-center font-bold">Cerita Sukses Pak Yanto Bersama Es Teh S.O.L.O, Bermula dari Kebangkrutan</h2>
         <h2 className="mt-[20px]">
-          Jakarta, 4 Desember 2023 - Pak Yanto adalah seorang pria berusia 45 tahun yang telah mengalami banyak pukulan dalam hidupnya. Dia adalah seorang kepala keluarga yang berjuang keras untuk memberikan kehidupan yang lebih baik bagi
-          istri dan dua anaknya. Namun, kehidupan tidak selalu berjalan sesuai rencana, Pak Yanto menghadapi keterpurakan yang tak terduga ketika tokonya mengalami kebangkrutan.
+          <span className="font-bold">Jakarta, 4 Desember 2023</span> - Pak Yanto adalah seorang pria berusia 45 tahun yang telah mengalami banyak pukulan dalam hidupnya. Dia adalah seorang kepala keluarga yang berjuang keras untuk
+          memberikan kehidupan yang lebih baik bagi istri dan dua anaknya. Namun, kehidupan tidak selalu berjalan sesuai rencana, Pak Yanto menghadapi keterpurakan yang tak terduga ketika tokonya mengalami kebangkrutan.
         </h2>
         <h2 className="mt-[20px]">
           Awalnya, Pak Yanto merasa putus asa. Dia merasa tertekan oleh berbagai tanggung jawab yang harus ia penuhi. Mereka tinggal di sebuah rumah kontrakan kecil setelah meninggalkan kos-kosan mereka yang sempit. Kondisi keuangan mereka
@@ -32,9 +33,9 @@ const Fea2 = () => {
         </h2>
         <h2 className="mt-[20px] font-semibold">Awal Mula Perjalanan Pak Yanto </h2>
         <h2 className="mt-[20px]">
-          Pak Yanto akhirnya memutuskan untuk bergabung dengan kemitraan Es Teh S.O.L.O. Seiring berjalannya waktu, Pak Yanto terus bekerja keras dan dengan tekun mengelola gerai franchise Es Teh S.O.L.O yang dia beli. Namun, apa yang
-          terjadi selanjutnya itu mengubah hidupnya. Rasa es teh yang segar dan pelayanan yang ramah membuat gerainya semakin populer. Pelanggan datang berduyun-duyun, dan bisnisnya mulai berkembang pesat. Pak Yanto tidak hanya menghasilkan
-          pendapatan yang lebih baik, tetapi juga belajar banyak tentang manajemen bisnis dan keterampilan kepemimpinan.
+          Pak Yanto akhirnya memutuskan untuk bergabung dengan kemitraan Es Teh S.O.L.O. Seiring berjalannya waktu, Pak Yanto terus bekerja keras dan dengan tekun mengelola gerai <span className="italic">franchise</span> Es Teh S.O.L.O yang
+          dia beli. Namun, apa yang terjadi selanjutnya itu mengubah hidupnya. Rasa es teh yang segar dan pelayanan yang ramah membuat gerainya semakin populer. Pelanggan datang berduyun-duyun, dan bisnisnya mulai berkembang pesat. Pak
+          Yanto tidak hanya menghasilkan pendapatan yang lebih baik, tetapi juga belajar banyak tentang manajemen bisnis dan keterampilan kepemimpinan.
         </h2>
         <h2 className="mt-[20px]">
           Beberapa tahun kemudian, berkat kerja keras, dedikasi, dan inovasinya dalam merancang minuman baru, Pak Yanto berhasil membangun sebuah rantai gerai Es Teh S.O.L.O yang sukses. Pendapatannya tumbuh dengan cepat, dan impian untuk
@@ -70,9 +71,12 @@ const Fea2 = () => {
         </h2>
         <div className="img flex flex-col items-center mt-[20px]">
           <img src={feature2} className="w-[450px]" alt="" />
-          <h2 className="mt-[20px] text-center">Pak Yanto bersama kedua anaknya di depan booth mereka.</h2>
+          <h2 className="mt-[10px] text-center text-[16px]">
+            Pak Yanto bersama kedua anaknya di depan <span className="italic">booth</span> mereka.
+          </h2>
         </div>
       </div>
+      <BottomBar />
     </div>
   );
 };

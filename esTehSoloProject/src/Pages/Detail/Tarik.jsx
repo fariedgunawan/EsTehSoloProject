@@ -3,6 +3,7 @@ import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehtarik from "../../assets/estehtarik.png";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../../Element/BottomBar";
 const Tarik = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -53,6 +54,7 @@ const Tarik = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };

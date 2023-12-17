@@ -3,6 +3,7 @@ import Navbar from "../../Element/Navbar";
 import estehmanis from "../../assets/estehmanis.png";
 import join from "../../assets/join.png";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../../Element/BottomBar";
 const Manis = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -53,6 +54,7 @@ const Manis = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };

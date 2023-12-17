@@ -3,6 +3,7 @@ import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehmilo from "../../assets/estehmilo.png";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../../Element/BottomBar";
 const Milo = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -51,6 +52,7 @@ const Milo = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };

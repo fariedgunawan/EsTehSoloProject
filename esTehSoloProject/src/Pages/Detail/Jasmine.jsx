@@ -3,6 +3,7 @@ import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehjasmine from "../../assets/estehjasmine.png";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../../Element/BottomBar";
 const Jasmine = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -51,6 +52,7 @@ const Jasmine = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };

@@ -17,6 +17,7 @@ import jinjing from "../assets/jinjing.png";
 import cupbening from "../assets/cupbening.png";
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../Element/BottomBar";
 const Menu = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -29,7 +30,7 @@ const Menu = () => {
         <Navbar />
         <div className="head-content flex justify-center sm:mt-[60px]">
           <div className="head-title flex flex-col items-center font-epilogue text-white">
-            <h2 className="text-[35px] font-bold sm:text-[40px]">ALL DRINK</h2>
+            <h2 className="text-[20px] font-bold sm:text-[40px]">Menu Es Teh S.O.L.O</h2>
           </div>
         </div>
       </div>
@@ -38,7 +39,7 @@ const Menu = () => {
       </svg>
       {/*heading */}
       <div className="categories-product flex flex-col justify-center items-center">
-        <h2 className="text-[20px] font-bold text-[#276631] sm:text-[30px]">Categories</h2>
+        <h2 className="text-[20px] font-bold text-[#276631] sm:text-[30px]">Variasi Packaging</h2>
         <div className="scrollbar-hide overflow-x-scroll flex w-full no-scrollbar text-[#276631] font-epilogue font-semibold sm:pb-[25px] cursor-pointer items-center mt-[30px] sm:justify-center sm:gap-[40px]">
           <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
             <img src={papercup} className="w-48 sm:w-60 h-auto min-w-[100px]" alt="Esteh Manis" />
@@ -46,15 +47,16 @@ const Menu = () => {
           </div>
           <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
             <img src={jinjing} className="w-48 sm:w-60 h-auto min-w-[100px]" alt="Esteh Manis" />
-            <h2 className="font-bold">Plastik Jinjing</h2>
+            <h2 className="font-bold mt-[10px]">Plastik Jinjing</h2>
           </div>
           <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
             <img src={cupbening} className="w-48 sm:w-60 h-auto min-w-[100px]" alt="Esteh Manis" />
-            <h2 className="font-bold">Gelas Plastik (16oz/22oz)</h2>
+            <h2 className="font-bold mt-[9px]">Gelas Plastik (16oz / 22oz)</h2>
           </div>
         </div>
       </div>
       {/*menu list */}
+      <h2 className="text-[20px] font-bold text-[#276631] sm:text-[30px] text-center mt-[40px]">Menu Kami</h2>
       <div className="menu-list-container font-epilogue flex justify-center px-[35px] pb-[30px] mt-[100px]">
         <div className="menu-list flex flex-wrap justify-center gap-[20px] sm:gap-[70px]">
           <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehmanis")}>
@@ -99,7 +101,7 @@ const Menu = () => {
           </div>
           <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehjasmine")}>
             <img src={estehjasmine} className="w-[200px] sm:w-[300px]" alt="" />
-            <h2 className="text-[#276631] font-bold text-[16px]">Jasmine Tea</h2>
+            <h2 className="text-[#276631] font-bold text-[16px] mt-[10px]">Jasmine Tea</h2>
             <h2 className="text-[#276631]">Rp7.000</h2>
           </div>
           <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehlemon")}>
@@ -115,6 +117,7 @@ const Menu = () => {
         </div>
       </div>
       {/*menu list */}
+      <BottomBar />
     </div>
   );
 };

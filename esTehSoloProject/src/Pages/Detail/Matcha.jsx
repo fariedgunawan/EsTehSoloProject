@@ -3,6 +3,7 @@ import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehmatcha from "../../assets/estehmatcha.png";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../../Element/BottomBar";
 const Matcha = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -51,6 +52,7 @@ const Matcha = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };

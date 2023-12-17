@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import estehsolo from "../../assets/tehsolo.png";
 import gbestehsolo from "../../assets/gbestehsolo.png";
 import ScrollBrand from "../../Element/ScrollBrand";
+import BottomBar from "../../Element/BottomBar";
 const Estehsolo = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -41,6 +42,7 @@ const Estehsolo = () => {
         <h2 className="text-[20px] text-black font-bold flex justify-center mt-[60px] sm:text-[30px] sm:mt-[130px]">Brand Lainnya</h2>
         <ScrollBrand />
       </div>
+      <BottomBar />
     </div>
   );
 };

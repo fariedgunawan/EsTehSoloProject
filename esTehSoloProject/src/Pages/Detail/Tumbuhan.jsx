@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import tumbuhan from "../../assets/tumbuhan.png";
 import gbtumbuhan from "../../assets/gbtumbuhan.jpg";
 import ScrollBrand from "../../Element/ScrollBrand";
+import BottomBar from "../../Element/BottomBar";
+import BottomBarBlack from "../../Element/BottomBarBlack";
 const Tumbuhan = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -40,6 +42,7 @@ const Tumbuhan = () => {
         <h2 className="text-[20px] text-black font-bold flex justify-center mt-[60px] sm:text-[30px] sm:mt-[130px]">Brand Lainnya</h2>
         <ScrollBrand />
       </div>
+      <BottomBarBlack />
     </div>
   );
 };

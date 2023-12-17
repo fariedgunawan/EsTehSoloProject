@@ -3,6 +3,7 @@ import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehkampoel from "../../assets/estehkampoel.png";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../../Element/BottomBar";
 
 const Kampoel = () => {
   const navigate = useNavigate();
@@ -54,6 +55,7 @@ const Kampoel = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };

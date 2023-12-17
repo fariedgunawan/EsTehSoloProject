@@ -3,6 +3,7 @@ import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehlemon from "../../assets/estehlemon.png";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../../Element/BottomBar";
 
 const Lemon = () => {
   const navigate = useNavigate();
@@ -52,6 +53,7 @@ const Lemon = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };

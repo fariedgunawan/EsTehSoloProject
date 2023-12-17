@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../../Element/Navbar";
 import artikel10 from "../../assets/artikel10.jpg";
+import BottomBar from "../../Element/BottomBar";
 const Ar10 = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -34,6 +35,7 @@ const Ar10 = () => {
         </h2>
         <h2 className="mt-[20px]">#EsTehSOLO #TerimaKasihPelanggan #PerjalananBersama</h2>
       </div>
+      <BottomBar />
     </div>
   );
 };

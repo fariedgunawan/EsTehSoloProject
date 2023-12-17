@@ -6,6 +6,7 @@ import bundle2 from "../assets/bundle2.png";
 import bundle3 from "../assets/bundle3.png";
 import bundle4 from "../assets/bundle4.png";
 import roi from "../assets/roi.jpg";
+import BottomBar from "../Element/BottomBar";
 
 const Franchise = () => {
   useEffect(() => {
@@ -50,7 +51,12 @@ const Franchise = () => {
               <img src={bundle4} className="w-96 h-auto min-w-[100px]" alt="Esteh Manis" />
             </div>
           </div>
-          <button className="btn text-[#075E54] sm:text-[20px]  px-[15px] py-[10px] rounded-lg shadow-lg mt-[40px] bg-white border-0 hover:text-white hover:bg-[#075E54]">Visit WhatsApp</button>
+          <button
+            className="btn text-[#075E54] sm:text-[20px]  px-[15px] py-[10px] rounded-lg shadow-lg mt-[40px] bg-white border-0 hover:text-white hover:bg-[#075E54]"
+            onClick={() => (window.location.href = "https://lynk.id/estehsoloku")}
+          >
+            Visit WhatsApp
+          </button>
         </div>
         <h2 className="mt-[50px] text-center font-bold text-[20px] sm:text-[30px] italic">Return of Investment (R.O.I)</h2>
         <div className="franchise-table flex justify-center">
@@ -67,9 +73,12 @@ const Franchise = () => {
           <h2 className="font-semibold sm:text-[20px]">WHATSAPP</h2>
           <h2 className="sm:text-[20px]">+62 822-2057-5308</h2>
           <h2 className="font-semibold sm:text-[20px]">INSTAGRAM</h2>
-          <h2 className="sm:text-[20px]">@estehsolo_</h2>
+          <a href="https://www.instagram.com/estehsolo_" target="_blank" className="sm:text-[20px]">
+            @estehsolo_
+          </a>
         </div>
       </div>
+      <BottomBar />
     </div>
   );
 };

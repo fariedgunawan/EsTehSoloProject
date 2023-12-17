@@ -1,3 +1,4 @@
+import BottomBar from "../../Element/BottomBar";
 import Navbar from "../../Element/Navbar";
 import fea1pot from "../../assets/fea1pot.jpg";
 import React, { useEffect } from "react";
@@ -11,16 +12,17 @@ const Fea1 = () => {
         <Navbar />
       </div>
 
-      <div className="fea-content px-[35px] font-epilogue text-justify mt-[20px] text-black sm:text-[20px]">
+      <div className="fea-content px-[35px] font-epilogue text-justify mt-[20px] text-black sm:text-[20px] pb-[50px]">
         <h2 className="text-center font-bold">Bikin Heboh Warganet! Seorang Wanita Dilamar Kekasihnya Menggunakan Es Teh S.O.L.O</h2>
         <h2 className="mt-[20px]">
-          Jakarta, 17 November 2023 - Sebuah momen romantis dan kreatif baru-baru ini membuat heboh warganet, ketika seorang wanita di Jakarta dilamar kekasihnya dengan menggunakan kejutan unik yaitu Es Teh S.O.L.O. Kisah ini dimulai ketika
-          Kevin Putra Pratama (28), seorang pria muda yang tinggal di Jakarta Barat, merencanakan cara spesial untuk melamar Felicia Putri (27), kekasihnya yang sangat dicintainya. Kevin yang tahu bahwa Felicia sangat menyukai Es Teh
-          S.O.L.O kemudian memutuskan untuk membuat momen lamaran mereka tidak terlupakan dengan menggabungkan minuman favorit kekasihnya tersebut dalam rencananya. Kegiatan tersebut tidak hanya menjadi pembicaraan di antara warganet,
-          tetapi juga mendapat sorotan luas di media sosial.
+          <span className="font-bold">Jakarta, 17 November 2023</span> - Sebuah momen romantis dan kreatif baru-baru ini membuat heboh warganet, ketika seorang wanita di Jakarta dilamar kekasihnya dengan menggunakan kejutan unik yaitu Es
+          Teh S.O.L.O. Kisah ini dimulai ketika Kevin Putra Pratama (28), seorang pria muda yang tinggal di Jakarta Barat, merencanakan cara spesial untuk melamar Felicia Putri (27), kekasihnya yang sangat dicintainya. Kevin yang tahu bahwa
+          Felicia sangat menyukai Es Teh S.O.L.O kemudian memutuskan untuk membuat momen lamaran mereka tidak terlupakan dengan menggabungkan minuman favorit kekasihnya tersebut dalam rencananya. Kegiatan tersebut tidak hanya menjadi
+          pembicaraan di antara warganet, tetapi juga mendapat sorotan luas di media sosial.
         </h2>
-        <div className="img flex justify-center mt-[20px]">
+        <div className="img flex flex-col items-center mt-[20px]">
           <img src={fea1pot} className="w-[350px]" alt="" />
+          <h2 className="text-[16px] mt-[10px]">Ilustrasi Kevin melamar Felicia</h2>
         </div>
 
         <h2 className="mt-[20px] font-semibold">Perjalanan Cinta Kevin & Felicia</h2>
@@ -39,12 +41,14 @@ const Fea1 = () => {
         </h2>
         <h2 className="mt-[20px] font-semibold">Momen Kevin Melamar Felicia di Central Park Mall</h2>
         <h2 className="mt-[20px]">
-          Pagi itu, Felicia diundang ke restaurant yang tersedia di Central Park Mall, Jakarta yang menjadi saksi bisu akan awal cerita cinta mereka. Begitu tiba di sana, Felicia langsung terkejut ketika melihat meja yang dihiasi cantik
-          dengan bunga, lilin, dan segelas Es Teh S.O.L.O yang disajikan dengan indah. Kevin lalu menggenggam tangan Felicia dan dengan tulus berkata, "Seperti Es Teh S.O.L.O yang menyegarkan, kehadiranmu membuat hidupku semakin indah.
-          Would you be my Es Teh S.O.L.O forever?" Felicia yang terkejut dan senang, akhirnya menjawab dengan senyuman tulus, "Yes, I do!"
+          Pagi itu, Felicia diundang ke <span className="italic">restaurant</span> yang tersedia di Central Park Mall, Jakarta yang menjadi saksi bisu akan awal cerita cinta mereka. Begitu tiba di sana, Felicia langsung terkejut ketika
+          melihat meja yang dihiasi cantik dengan bunga, lilin, dan segelas Es Teh S.O.L.O yang disajikan dengan indah. Kevin lalu menggenggam tangan Felicia dan dengan tulus berkata, "Seperti Es Teh S.O.L.O yang menyegarkan, kehadiranmu
+          membuat hidupku semakin indah.
+          <span className="italic">Would you be my Es Teh S.O.L.O forever?</span>" Felicia yang terkejut dan senang, akhirnya menjawab dengan senyuman tulus, <span className="italic">"Yes, I do!"</span>
         </h2>
         <h2 className="mt-[20px]">
-          Momen indah tersebut tidak hanya terekam dalam ingatan mereka berdua, tetapi juga terekam dalam video yang kemudian diunggah oleh Kevin ke media sosial. Video itu pun menjadi viral dan mendapat banyak likes, komentar, dan share
+          Momen indah tersebut tidak hanya terekam dalam ingatan mereka berdua, tetapi juga terekam dalam video yang kemudian diunggah oleh Kevin ke media sosial. Video itu pun menjadi viral dan mendapat banyak{" "}
+          <span className="italic">likes</span>, komentar, dan <span className="italic">share </span>
           dari warganet yang terinspirasi oleh kreativitas dan keunikan lamaran tersebut. Netizen pun memberikan berbagai komentar positif, mengapresiasi cara Kevin menggabungkan cinta dan minuman favorit Felicia dalam momen lamaran yang
           romantis dan menyentuh hati. Momen Es Teh S.O.L.O dalam lamaran ini bukan hanya menjadi memori indah bagi kedua sejoli, tetapi juga menunjukkan bahwa kreativitas dalam melamar dapat membuat momen tersebut menjadi lebih istimewa
           dan berkesan.{" "}
@@ -60,15 +64,16 @@ const Fea1 = () => {
           yaitu Felicia.
         </h2>
         <h2 className="mt-[20px]">
-          “Saya rasa Es Teh S.O.L.O jadi hal yang sederhana buat diingat, tapi untuk jenjang masa depan hal ini jadi momen besar buat kami. saya akan mengundang pihak Es Teh S.O.L.O. buat booth pilihan saya di wedding nanti” Ujar Kevin
-          Putra Pratama secara bangga.
+          “Saya rasa Es Teh S.O.L.O jadi hal yang sederhana buat diingat, tapi untuk jenjang masa depan hal ini jadi momen besar buat kami. saya akan mengundang pihak Es Teh S.O.L.O. buat <span className="italic">booth</span> pilihan saya
+          di <span className="italic">wedding</span> nanti” Ujar Kevin Putra Pratama secara bangga.
         </h2>
         <h2 className="mt-[20px]">
-          Dalam momen spesial ini Pihak Es Teh S.O.L.O melakukan follow up kembali terkait pernyataan Kevin Putra Pratama dalam memilih brand Es Teh S.O.L.O untuk booth di pernikahannya nanti. Arum Kusumo selaku founder Es Teh S.O.L.O.
-          memberikan ucapan selamat serta memberikan penawaran khusus berupa potongan harga dalam opsi paket, harga sewa, dan fasilitas yang termasuk dalam layanan booth brand Es Teh S.O.L.O untuk menyemarakkan acara pernikahan Kevin Putra
-          Pratama dan Felicia Putri.
+          Dalam momen spesial ini Pihak Es Teh S.O.L.O melakukan <span className="italic">follow up</span> kembali terkait pernyataan Kevin Putra Pratama dalam memilih <span className="italic">brand</span> Es Teh S.O.L.O untuk{" "}
+          <span className="italic">booth</span> di pernikahannya nanti. Arum Kusumo selaku <span className="italic">founder</span> Es Teh S.O.L.O memberikan ucapan selamat serta memberikan penawaran khusus berupa potongan harga dalam opsi
+          paket, harga sewa, dan fasilitas yang termasuk dalam layanan <span className="italic">booth</span> <span className="italic">brand</span> Es Teh S.O.L.O untuk menyemarakkan acara pernikahan Kevin Putra Pratama dan Felicia Putri.
         </h2>
       </div>
+      <BottomBar />
     </div>
   );
 };

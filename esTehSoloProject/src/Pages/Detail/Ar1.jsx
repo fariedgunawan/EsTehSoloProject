@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../../Element/Navbar";
 import artikel from "../../assets/artikel1.jpg";
+import BottomBar from "../../Element/BottomBar";
 const Ar1 = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -11,7 +12,7 @@ const Ar1 = () => {
         <Navbar />
       </div>
 
-      <div className="fea-content px-[35px] font-epilogue text-justify mt-[20px] text-black sm:text-[20px]">
+      <div className="fea-content px-[35px] font-epilogue text-justify mt-[20px] text-black sm:text-[20px] pb-[50px]">
         <h2 className="text-center font-bold">“Semua Aku Dirayakan…" </h2>
         <h2 className="text-center font-bold">Begitupun Es Teh S.O.L.O Merayakanmu</h2>
         <h2 className="mt-[20px]">
@@ -25,16 +26,18 @@ const Ar1 = () => {
         </h2>
         <div className="img flex flex-col items-center mt-[20px]">
           <img src={artikel} className="w-[450px]" alt="" />
+          <h2 className="text-[16px] mt-[10px]">Gambar dari Instagram @estehsolo_</h2>
         </div>
         <h2 className="mt-[20px]">
-          Maka dari itu Es Teh S.O.L.O ingin agar kamu dapat merayakan dirimu serta orang di sekitarmu. Melalui pembelian Buy One Get One kamu dapat memberikan perayaan terhadap dirimu serta berbagi dengan teman, kekasih ataupun kerabatmu.
-          Dengan demikian setiap gelas Es Teh S.O.L.O yang dinikmati, dapat turut merayakan dan menghargai keberagaman yang ada di sekelilingmu.
+          Maka dari itu Es Teh S.O.L.O ingin agar kamu dapat merayakan dirimu serta orang di sekitarmu. Melalui pembelian <span className="italic">Buy One Get One</span> kamu dapat memberikan perayaan terhadap dirimu serta berbagi dengan
+          teman, kekasih ataupun kerabatmu. Dengan demikian setiap gelas Es Teh S.O.L.O yang dinikmati, dapat turut merayakan dan menghargai keberagaman yang ada di sekelilingmu.
         </h2>
         <h2 className="mt-[20px]">
           Es Teh S.O.L.O ialah bentuk simbol perayaan akan keunikan setiap individu. Terinspirasi dalam lagu berjudul "Semua Aku Dirayakan" karya Nadin Amizah. Membuat kami tersadar bahwa semua orang harus dirayakan, terkhususnya kamu
           pelanggan setia Es Teh S.O.L.O. Kami akan menemani kamu untuk merayakan keberagaman dalam segala hal.
         </h2>
       </div>
+      <BottomBar />
     </div>
   );
 };

@@ -2,24 +2,6 @@ import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
-  const emailRef = useRef(null);
-
-  const handleCopyEmail = () => {
-    const email = emailRef.current.innerText;
-
-    const tempTextArea = document.createElement("textarea");
-    tempTextArea.value = email;
-    document.body.appendChild(tempTextArea);
-
-    tempTextArea.select();
-    tempTextArea.setSelectionRange(0, 99999); // For mobile devices
-
-    document.execCommand("copy");
-
-    document.body.removeChild(tempTextArea);
-
-    alert("Email address copied to clipboard!");
-  };
   return (
     <div className="navbar-container font-epilogue  text-white px-[35px] py-[35px] flex items-center justify-between">
       <div className="left-side">
@@ -42,17 +24,12 @@ const Navbar = () => {
         </h2>
       </div>
       <div className="right-side hidden sm:flex gap-[20px]">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none" onClick={handleCopyEmail} style={{ cursor: "pointer" }}>
-            <path
-              d="M29.1666 26.25H26.25V13.4896L17.5 18.9583L8.74996 13.4896V26.25H5.83329V8.74999H7.58329L17.5 14.9479L27.4166 8.74999H29.1666M29.1666 5.83333H5.83329C4.21454 5.83333 2.91663 7.13124 2.91663 8.74999V26.25C2.91663 27.0235 3.22392 27.7654 3.7709 28.3124C4.31788 28.8594 5.05974 29.1667 5.83329 29.1667H29.1666C29.9402 29.1667 30.682 28.8594 31.229 28.3124C31.776 27.7654 32.0833 27.0235 32.0833 26.25V8.74999C32.0833 7.97645 31.776 7.23458 31.229 6.6876C30.682 6.14062 29.9402 5.83333 29.1666 5.83333Z"
-              fill="white"
-            />
-          </svg>
-          <div ref={emailRef} style={{ display: "none" }}>
-            estehsolo88@gmail.com
-          </div>
-        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none" onClick={() => (href = "mailto:estehsolo88@gmail.com")} style={{ cursor: "pointer" }}>
+          <path
+            d="M29.1666 26.25H26.25V13.4896L17.5 18.9583L8.74996 13.4896V26.25H5.83329V8.74999H7.58329L17.5 14.9479L27.4166 8.74999H29.1666M29.1666 5.83333H5.83329C4.21454 5.83333 2.91663 7.13124 2.91663 8.74999V26.25C2.91663 27.0235 3.22392 27.7654 3.7709 28.3124C4.31788 28.8594 5.05974 29.1667 5.83329 29.1667H29.1666C29.9402 29.1667 30.682 28.8594 31.229 28.3124C31.776 27.7654 32.0833 27.0235 32.0833 26.25V8.74999C32.0833 7.97645 31.776 7.23458 31.229 6.6876C30.682 6.14062 29.9402 5.83333 29.1666 5.83333Z"
+            fill="white"
+          />
+        </svg>
         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none" onClick={() => (window.location.href = "https://www.youtube.com/channel/UC3U8fhJOl78YkmzSEmbEUSg")} className="cursor-pointer">
           <g clip-path="url(#clip0_47_198)">
             <path
@@ -99,11 +76,8 @@ const Navbar = () => {
             <li onClick={() => navigate("/artikel")}>
               <a>Artikel</a>
             </li>
-            <li onClick={handleCopyEmail}>
+            <li>
               <a>Gmail</a>
-              <div ref={emailRef} style={{ display: "none" }}>
-                estehsolo88@gmail.com
-              </div>
             </li>
             <li onClick={() => (window.location.href = "https://www.youtube.com/channel/UC3U8fhJOl78YkmzSEmbEUSg")}>
               <a>Youtube</a>

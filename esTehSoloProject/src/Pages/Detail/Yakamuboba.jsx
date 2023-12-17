@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import yakamuboba from "../../assets/yakamuboba.png";
 import gbyakamuboba from "../../assets/gbyakamuboba.jpg";
 import ScrollBrand from "../../Element/ScrollBrand";
+import BottomBar from "../../Element/BottomBar";
+import BottomBarBlack from "../../Element/BottomBarBlack";
 const Yakamuboba = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -41,6 +43,7 @@ const Yakamuboba = () => {
         <h2 className="text-[20px] text-black font-bold flex justify-center mt-[60px] sm:text-[30px] sm:mt-[130px]">Brand Lainnya</h2>
         <ScrollBrand />
       </div>
+      <BottomBarBlack />
     </div>
   );
 };

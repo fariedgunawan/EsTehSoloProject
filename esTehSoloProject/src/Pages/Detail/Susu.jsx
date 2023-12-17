@@ -3,6 +3,7 @@ import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehsusu from "../../assets/estehsusu.png";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../../Element/BottomBar";
 const Susu = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -53,6 +54,7 @@ const Susu = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };

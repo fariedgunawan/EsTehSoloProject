@@ -3,6 +3,7 @@ import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
 import estehleci from "../../assets/estehleci.png";
 import { useNavigate } from "react-router-dom";
+import BottomBar from "../../Element/BottomBar";
 const Lychee = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -53,6 +54,7 @@ const Lychee = () => {
       </div>
 
       {/*content */}
+      <BottomBar />
     </div>
   );
 };
