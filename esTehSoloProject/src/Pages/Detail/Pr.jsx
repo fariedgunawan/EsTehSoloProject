@@ -47,10 +47,10 @@ const Pr = () => {
         </div>
         <h2 className="text-center font-bold ">###</h2>
         <h2 className="font-bold">Untuk informasi lebih lanjut, silakan hubungi:</h2>
-        <h2 className="font-bold">Alvin Lievaldi</h2>
-        <h2 className="font-bold">Public Relation Officer Es Teh S.O.L.O</h2>
-        <h2 className="font-bold">No Telp : 083489675135</h2>
-        <h2 className="font-bold">Email : alvinlievaldi@estehsolo.com</h2>
+        <h2>Alvin Lievaldi</h2>
+        <h2>Public Relation Officer Es Teh S.O.L.O</h2>
+        <h2>No Telp : 083489675135</h2>
+        <h2>Email : alvinlievaldi@estehsolo.com</h2>
         <h2 className="font-bold mt-[40px]">Tentang Es Teh S.O.L.O:</h2>
         <h2 className="mt-[20px]">
           Es Teh S.O.L.O adalah brand minuman teh khas Solo dari PT. Esok Harapan Bangsa, pioner di industri Food and Beverages yang berfokus pada franchise minuman sejak 2010 dengan puluhan brand FnB yang telah diterbitkan.
