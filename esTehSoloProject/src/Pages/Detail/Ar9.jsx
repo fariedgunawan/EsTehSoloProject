@@ -16,8 +16,8 @@ const Ar9 = () => {
       <div className="fea-content px-[35px] font-epilogue text-justify mt-[20px] text-black sm:text-[20px] pb-[50px]">
         <h2 className="text-center font-bold">Es Teh S.O.L.O Mendengar Suara dan Keluh Kesahmu</h2>
         <h2 className="mt-[20px]">
-          Jakarta, 3 Desember 2023 - Dalam perjalanan hidup yang penuh dengan tantangan, setiap langkah perjuangan yang kamu lalui adalah cermin dari tekadmu yang tak kenal lelah. Di tengah kesibukan dan kelelahanmu, Es Teh S.O.L.O ingin
-          mengucapkan terima kasih yang tulus atas usahamu yang luar biasa. Kami mengapresiasi dedikasimu yang terus mendukung dan menikmati segarnya rasa teh khas Solo kami.
+          <span className="font-bold">Jakarta, 3 Desember 2023</span> - Dalam perjalanan hidup yang penuh dengan tantangan, setiap langkah perjuangan yang kamu lalui adalah cermin dari tekadmu yang tak kenal lelah. Di tengah kesibukan dan
+          kelelahanmu, Es Teh S.O.L.O ingin mengucapkan terima kasih yang tulus atas usahamu yang luar biasa. Kami mengapresiasi dedikasimu yang terus mendukung dan menikmati segarnya rasa teh khas Solo kami.
         </h2>
         <h2 className="mt-[20px]">
           Kami menyadari bahwa perjuanganmu selama ini adalah bagian dari perjalanan yang berharga. Kami percaya bahwa setiap orang telah berusaha sekuat tenaga dalam menjalani hari dan pantas untuk diapresiasi. Es Teh S.O.L.O selalu
