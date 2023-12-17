@@ -4,7 +4,7 @@ const BottomBar = () => {
   const navigate = useNavigate();
   return (
     <footer className="footer footer-center p-5 sm:p-10 bg-[#276631] text-white rounded mt-[100px]">
-      <nav className="grid grid-flow-col gap-4">
+      <nav className="grid grid-flow-col gap-[10px] sm:gap-[50px]">
         <a className="link link-hover" onClick={() => navigate("/tentangkami")}>
           Tentang Kami
         </a>

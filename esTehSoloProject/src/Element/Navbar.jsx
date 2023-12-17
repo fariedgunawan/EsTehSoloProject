@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div className="center-side hidden sm:flex sm:gap-[40px]">
         <h2 className="cursor-pointer" onClick={() => navigate("/tentangkami")}>
-          Tentang kami
+          Tentang Kami
         </h2>
         <h2 className="cursor-pointer" onClick={() => navigate("/menu")}>
           Menu

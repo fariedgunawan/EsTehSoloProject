@@ -70,7 +70,7 @@ const Landing = () => {
       </div>
 
       <div className="join-section font-epilogue text-white px-[35px] bg-[#276631] pt-[30px] -mt-[1px]">
-        <div className="join-container flex flex-col items-center sm:flex-row-reverse sm:gap-[300px]">
+        <div className="join-container flex flex-col items-center sm:flex-row-reverse sm:gap-[250px]">
           <div className="join-caption pb-[20px] text-center sm:text-left">
             <h2 className="font-semibold sm:text-[20px]">OWN A FRANCHISE</h2>
             <h2 className="mt-[10px] font-bold text-[30px] text-center sm:text-[60px] sm:w-[600px] sm:text-left">Gabung Kemitraan Es Teh S.O.L.O</h2>
@@ -93,8 +93,17 @@ const Landing = () => {
 
       {/*join estehsolo */}
 
+      {/*sertifikasi */}
+      <h2 className="text-center text-[#276631] font-bold text-[20px] sm:text-[30px]">Legalitas S.O.L.O</h2>
+      <div className="legalitas flex justify-center">
+        <a href="https://id.bloggif.com/" title="Foto montase">
+          <img src="https://data.bloggif.com/distant/user/store/b/5/0/0/0099eb2b5c67c51e3af22ecf86b6005b.gif" alt="Montage dibuat Bloggif" width="600" height="419" className="w-[400px] h-[219px] sm:w-[600px] sm:h-[419px]" />
+        </a>
+      </div>
+      {/*sertifikasi */}
+
       {/* Media gallery esteh */}
-      <div className="media-gallery-container font-epilogue px-[35px] flex justify-center">
+      <div className="media-gallery-container font-epilogue px-[35px] flex justify-center mt-[70px]">
         <div className="media-gallery-content flex-col flex items-center">
           <h2 className="text-[#276631] font-bold text-[20px] sm:text-[30px]">Media Gallery Es Teh S.O.L.O</h2>
           <div className="carousel w-full rounded-xl mt-[20px] sm:w-[60rem]" ref={galleryRef}>
@@ -114,7 +123,7 @@ const Landing = () => {
       {/* Media gallery esteh */}
 
       {/*artist in frame */}
-      <div className="artis-container font-epilogue flex justify-center text-black px-[35px]">
+      <div className="artis-container font-epilogue flex justify-center text-black px-[35px] mt-[70px]">
         <div className="artis-content flex flex-col items-center">
           <h2 className="text-[#276631] font-bold text-[20px] sm:text-[30px] mt-[30px]">Artist in Frame</h2>
           <div className="carousel w-full rounded-xl mt-[20px]  sm:w-[40rem]" ref={galleryRef}>
