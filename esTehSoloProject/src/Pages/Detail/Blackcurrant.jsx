@@ -30,7 +30,7 @@ const Blackcurrant = () => {
           <div className="manis-caption flex-col flex items-center mt-[30px] sm:items-start">
             <h2 className="font-bold text-[20px] text-[#6D1B28] sm:text-[40px]">ES TEH BLACKCURRANT</h2>
             <h2 className="text-center font-medium text-[#6D1B28] mt-[20px] sm:text-left">Teh dengan paduan rasa blackcurrant yang manis dan segar. Cocok untuk kamu yang mencari sesuatu yang berbeda.</h2>
-            <h2 className="text-center text-[#6D1B28] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp10.000,00</h2>
+            <h2 className="text-center text-[#6D1B28] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp10.000</h2>
           </div>
         </div>
       </div>

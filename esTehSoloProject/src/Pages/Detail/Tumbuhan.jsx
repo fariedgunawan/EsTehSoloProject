@@ -20,8 +20,8 @@ const Tumbuhan = () => {
           <div className="caption flex-col flex items-center sm:items-start">
             <h2 className="text-[20px] font-semibold sm:text-[30px]">Tumbuhan Smoothies (2021)</h2>
             <h2 className="text-center mt-[20px] sm:text-left sm:text-[20px]">
-              Produk Tumbuhan <span className="italic">Smoothies</span> hadir dan dikemas untuk Anda yang ingin membuka peluang usaha kekinian dengan harga yang terjangkau dan desain yang menarik. Dengan rasa yang bervariasi, Tumbuhan
-              Smoothies memberikan kualitas terbaik hanya untuk Anda.
+              Tumbuhan Smoothies adalah sebuah merek atau bisnis yang menawarkan <span className="italic">smoothies</span> yang terbuat dari buah-buah segar pilihan. Dengan makna dari tumbuhan sendiri ialah “Bertumbuh atas kehendak Tuhan”.
+              Bertumbuh sukses bisnisnya, bertumbuh cuan mitranya!
             </h2>
           </div>
         </div>
@@ -33,7 +33,7 @@ const Tumbuhan = () => {
           </h2>
           <div className="contact flex flex-col items-center mt-[40px] sm:mt-[60px]">
             <h2 className="font-semibold text-[20px] sm:text-[30px]">Contact</h2>
-            <h2 className="mt-[10px] sm:text-[20px]">0821-2685-7553(Jabar & Jabodetabek)</h2>
+            <h2 className="mt-[10px] sm:text-[20px]">0821-2685-7553 (JABAR & JABODETABEK)</h2>
             <h2 className="sm:text-[20px]">Website : https://www.tumbuhansmoothies.com/</h2>
             <h2 className="sm:text-[20px]">Instagram : @tumbuhansmoothies</h2>
           </div>

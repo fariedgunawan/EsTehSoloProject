@@ -1,5 +1,5 @@
 import Navbar from "../Element/Navbar";
-import React from "react";
+import React, { useEffect } from "react";
 import pr1 from "../assets/pr1.png";
 import feature1 from "../assets/fea1pot.jpg";
 import feature2cov from "../assets/feature2cov.png";
@@ -12,11 +12,16 @@ import artikel6 from "../assets/artikel6cov.jpg";
 import artikel7 from "../assets/artikel7cov.jpg";
 import artikel8 from "../assets/artikel8cov.jpg";
 import artikel10 from "../assets/artikel10cov.jpg";
+import artikel9 from "../assets/artikel9cov.jpg";
+import pressrelease from "../assets/pressrelease.jpg";
 import { useNavigate } from "react-router-dom";
 import BottomBar from "../Element/BottomBar";
 
 const Artikel = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="artikel-body bg-white min-h-screen font-epilogue text-black">
       <div className="artikel-heading bg-[#276631]">
@@ -27,7 +32,7 @@ const Artikel = () => {
       {/*press release */}
       <div className="artikel-bag1 px-[35px] flex justify-center mt-[20px]">
         <div className="bag1-1 flex flex-col w-[300px] sm:w-[450px] px-[20px] py-[10px] shadow-xl rounded-xl cursor-pointer">
-          <img src={pr1} className="w-full rounded-md" alt="" />
+          <img src={pressrelease} className="w-full rounded-md" alt="" />
           <h2 className="font-semibold mt-[10px] sm:text-[16px]">Kolaborasi Ter-Hype! Es Teh S.O.L.O dan Ban Ban Tea Menghadirkan Menu Jasmine Chizu Tea!</h2>
           <h2 className="text-[12px] text-slate-500 mt-[10px] sm:text-[14px]">Jakarta, 25 Oktober 2023 - Es Teh S.O.L.O, merek minuman teh khas Solo dengan cita rasa...</h2>
           <h2 className="text-[12px] font-semibold mt-[10px] sm:text-[14px]">Read More</h2>
@@ -108,7 +113,7 @@ const Artikel = () => {
             <h2 className="text-[12px] font-semibold mt-[10px] sm:text-[14px]">Read More</h2>
           </div>
           <div className="bag1-1 flex flex-col w-[300px] sm:w-[450px] px-[20px] py-[10px] shadow-xl rounded-xl cursor-pointer" onClick={() => navigate("/artikel9")}>
-            <img src={pr1} className="w-full rounded-md" alt="" />
+            <img src={artikel9} className="w-full rounded-md" alt="" />
             <h2 className="font-semibold mt-[10px] sm:text-[16px]">Es Teh S.O.L.O Mendengar Suara dan Keluh Kesahmu</h2>
             <h2 className="text-[12px] text-slate-500 mt-[10px] sm:text-[14px]">Jakarta, 3 Desember 2023 - Dalam perjalanan hidup yang penuh dengan tantangan...</h2>
             <h2 className="text-[12px] font-semibold mt-[10px] sm:text-[14px]">Read More</h2>

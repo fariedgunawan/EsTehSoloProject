@@ -30,7 +30,7 @@ const Matcha = () => {
           <div className="manis-caption flex-col flex items-center mt-[30px] sm:items-start">
             <h2 className="font-bold text-[20px] text-[#98AA43] sm:text-[40px]">MATCHA TEA</h2>
             <h2 className="text-center font-medium text-[#98AA43] mt-[20px] sm:text-left">Teh dengan menggunakan bubuk teh hijau khas Jepang yang menciptakan rasa yang khas dan kaya akan antioksidan.</h2>
-            <h2 className="text-center text-[#98AA43] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp12.000,00</h2>
+            <h2 className="text-center text-[#98AA43] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp12.000</h2>
           </div>
         </div>
       </div>

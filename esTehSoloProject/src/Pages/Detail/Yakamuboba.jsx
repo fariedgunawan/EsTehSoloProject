@@ -21,7 +21,7 @@ const Yakamuboba = () => {
             <h2 className="text-[20px] font-semibold sm:text-[30px]">Yakamu Boba (2021) </h2>
             <h2 className="text-center mt-[20px] sm:text-left sm:text-[20px]">
               Yakamu Boba adalah merek minuman boba yang menawarkan berbagai varian rasa, termasuk Ovaltine, Taro, Original Brown Sugar, dan Binggan Brown Sugar. Produk kami meliputi minuman dengan tambahan susu creamer, susu{" "}
-              <span className="italic">full cream</span>, Oreo, gula aren, boba, dan toping <span className="italic">cheese cream</span> dengan harga sekitar 18.000 rupiah.
+              <span className="italic">full cream</span>, Oreo, gula aren, boba, dan topping <span className="italic">cheese cream</span> .
             </h2>
           </div>
         </div>

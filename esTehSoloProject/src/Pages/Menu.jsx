@@ -40,7 +40,7 @@ const Menu = () => {
       {/*heading */}
       <div className="categories-product flex flex-col justify-center items-center">
         <h2 className="text-[20px] font-bold text-[#276631] sm:text-[30px]">Variasi Packaging</h2>
-        <div className="scrollbar-hide overflow-x-scroll flex w-full no-scrollbar text-[#276631] font-epilogue font-semibold sm:pb-[25px] cursor-pointer items-center mt-[30px] sm:justify-center sm:gap-[40px]">
+        <div className="scrollbar-hide overflow-x-scroll flex w-full no-scrollbar text-[#276631] font-epilogue font-semibold sm:pb-[25px] items-center mt-[30px] sm:justify-center sm:gap-[40px]">
           <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
             <img src={papercup} className="w-48 sm:w-60 h-auto min-w-[100px]" alt="Esteh Manis" />
             <h2 className="font-bold">Paper Cup</h2>
@@ -59,57 +59,57 @@ const Menu = () => {
       <h2 className="text-[20px] font-bold text-[#276631] sm:text-[30px] text-center mt-[40px]">Menu Kami</h2>
       <div className="menu-list-container font-epilogue flex justify-center px-[35px] pb-[30px] mt-[100px]">
         <div className="menu-list flex flex-wrap justify-center gap-[20px] sm:gap-[70px]">
-          <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehmanis")}>
+          <div className="menu-1 flex flex-col items-center cursor-pointer" onClick={() => navigate("/estehmanis")}>
             <img src={estehmanis} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Manis</h2>
             <h2 className="text-[#276631]">Rp3.000</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehkampoel")}>
+          <div className="menu-1 flex flex-col items-center sm:-translate-y-10 cursor-pointer" onClick={() => navigate("/estehkampoel")}>
             <img src={estehkampoel} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Kampoel</h2>
             <h2 className="text-[#276631]">Rp5.000</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehtarik")}>
+          <div className="menu-1 flex flex-col items-center cursor-pointer" onClick={() => navigate("/estehtarik")}>
             <img src={estehtarik} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Tarik</h2>
             <h2 className="text-[#276631]">Rp7.000</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehsusu")}>
+          <div className="menu-1 flex flex-col items-center sm:-translate-y-10 cursor-pointer" onClick={() => navigate("/estehsusu")}>
             <img src={estehsusu} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Susu</h2>
             <h2 className="text-[#276631]">Rp7.000</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehmilo")}>
+          <div className="menu-1 flex flex-col items-center cursor-pointer" onClick={() => navigate("/estehmilo")}>
             <img src={estehmilo} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Milo</h2>
             <h2 className="text-[#276631]">Rp10.000</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehcoklat")}>
+          <div className="menu-1 flex flex-col items-center sm:-translate-y-10 cursor-pointer" onClick={() => navigate("/estehcoklat")}>
             <img src={estehcoklat} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Es Teh Coklat</h2>
             <h2 className="text-[#276631]">Rp10.000</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehblackcurrant")}>
+          <div className="menu-1 flex flex-col items-center cursor-pointer" onClick={() => navigate("/estehblackcurrant")}>
             <img src={estehblackcurrant} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Blackcurrant Tea</h2>
             <h2 className="text-[#276631]">Rp10.000</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehmatcha")}>
+          <div className="menu-1 flex flex-col items-center sm:-translate-y-10 cursor-pointer" onClick={() => navigate("/estehmatcha")}>
             <img src={estehmatcha} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Matcha Tea</h2>
             <h2 className="text-[#276631]">Rp12.000</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehjasmine")}>
+          <div className="menu-1 flex flex-col items-center cursor-pointer" onClick={() => navigate("/estehjasmine")}>
             <img src={estehjasmine} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px] mt-[10px]">Jasmine Tea</h2>
             <h2 className="text-[#276631]">Rp7.000</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center sm:-translate-y-10" onClick={() => navigate("/estehlemon")}>
+          <div className="menu-1 flex flex-col items-center sm:-translate-y-10 cursor-pointer" onClick={() => navigate("/estehlemon")}>
             <img src={estehlemon} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Lemon Tea</h2>
             <h2 className="text-[#276631]">Rp7.000</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center" onClick={() => navigate("/estehleci")}>
+          <div className="menu-1 flex flex-col items-center cursor-pointer" onClick={() => navigate("/estehleci")}>
             <img src={estehleci} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-bold text-[16px]">Lychee Tea</h2>
             <h2 className="text-[#276631]">Rp7.000</h2>

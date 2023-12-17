@@ -30,7 +30,7 @@ const Milo = () => {
           <div className="manis-caption flex-col flex items-center mt-[30px] sm:items-start">
             <h2 className="font-bold text-[20px] text-[#844629] sm:text-[40px]">ES TEH MILO</h2>
             <h2 className="text-center font-medium text-[#844629] mt-[20px] sm:text-left">Teh yang dicampur dengan bubuk Milo dan disajikan secara dingin. Cocok untuk kamu si pecinta Milo.</h2>
-            <h2 className="text-center text-[#844629] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp10.000,00</h2>
+            <h2 className="text-center text-[#844629] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp10.000</h2>
           </div>
         </div>
       </div>

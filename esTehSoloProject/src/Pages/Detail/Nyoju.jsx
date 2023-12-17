@@ -20,16 +20,16 @@ const Nyoju = () => {
           <div className="caption flex-col flex items-center sm:items-start">
             <h2 className="text-[20px] font-semibold sm:text-[30px]">Nyoju (2021)</h2>
             <h2 className="text-center mt-[20px] sm:text-left sm:text-[20px]">
-              Nyoju adalah sebuah merek minuman yang menawarkan berbagai varian rasa, termasuk <span className="italic">cookies</span> keju, <span className="italic">cookies drink</span> + keju, dan{" "}
-              <span className="italic">strawberry</span> drink + keju. Harga produk kami berkisar antara 14.000 rupiah.
+              Nyoju adalah sebuah merek minuman kekinian perpaduan coklat dan keju yang menghasilkan sensasi rasa yang nikmat. Nyoju menawarkan berbagai varian rasa termasuk Cookies Keju, Nyoklat Keju Chocolate, Strawberry Keju dan berbagai
+              pilihan rasa lainnya.
             </h2>
           </div>
         </div>
         <div className="gerobak mt-[60px] flex flex-col items-center sm:mt-[30px]">
           <img src={gbnyoju} className="w-[350px] sm:w-[450px]" alt="" />
           <h2 className="text-center mt-[20px] sm:w-[1000px] sm:text-[20px] sm:mt-[30px]">
-            Kami mengundang Anda menjadi bagian mitra kami. Produk yang kami tawarkan antara lain cookies, vanilla, dan redberry. Dengan racikan resep yang unik menciptakan minuman yang manis dan segar. Kami menawarkan paket usaha dengan
-            potongan hingga 50% dan dapatkan benefit lainnya.
+            Kami mengundang Anda menjadi bagian mitra kami. Dengan racikan resep yang unik menciptakan minuman yang manis dan segar. Kami menawarkan paket usaha dengan
+            potongan hingga 50% dan berbagai benefit lainnya yang bisa Anda dapatkan.
           </h2>
           <div className="contact flex flex-col items-center mt-[40px] sm:mt-[60px]">
             <h2 className="font-semibold text-[20px] sm:text-[30px]">Contact</h2>
