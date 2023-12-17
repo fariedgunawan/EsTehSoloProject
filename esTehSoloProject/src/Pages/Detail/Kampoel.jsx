@@ -31,9 +31,9 @@ const Kampoel = () => {
           <div className="manis-caption flex-col flex items-center mt-[30px] sm:items-start">
             <h2 className="font-bold text-[20px] text-[#A46F49] sm:text-[40px]">ES TEH KAMPOEL</h2>
             <h2 className="text-center font-medium text-[#A46F49] mt-[20px] sm:text-left">
-              Penyajian teh dalam keaadan dingin yang diberi sentuhan jeruk nipis atau peras segar. Disebut kampoel karena kondisi jeruk kampoel (mengambang dalam bahasa Jawa) di dalamnya.
+              Penyajian teh dalam keadaan dingin yang diberi sentuhan jeruk nipis atau peras segar. Disebut kampoel karena kondisi jeruk kampoel (mengambang dalam bahasa Jawa) di dalamnya.
             </h2>
-            <h2 className="text-center text-[#A46F49] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp5.000,00</h2>
+            <h2 className="text-center text-[#A46F49] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp5.000</h2>
           </div>
         </div>
       </div>

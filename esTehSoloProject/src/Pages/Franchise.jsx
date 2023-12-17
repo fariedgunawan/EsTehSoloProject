@@ -37,7 +37,7 @@ const Franchise = () => {
         </div>
         <h2 className="text-center mt-[30px] text-[20px] sm:text-[30px] font-bold sm:mt-[100px]">Paket Booth</h2>
         <div className="content-slider flex justify-center mt-[30px] flex-col items-center sm:mt-[100px]">
-          <div className="scrollbar-hide overflow-x-scroll flex w-full no-scrollbar text-white font-epilogue font-semibold sm:pb-[25px] cursor-pointer gap-[40px]">
+          <div className="scrollbar-hide overflow-x-scroll flex w-full no-scrollbar text-white font-epilogue font-semibold sm:pb-[25px] cursor-pointer gap-[40px]" onClick={() => (window.location.href = "https://lynk.id/estehsoloku")}>
             <div className="content-1 relative flex w-[435px] min-w-[435px] flex-col items-center overflow-hidden">
               <img src={bundle1} className="w-96 h-auto min-w-[100px] " alt="Esteh Manis" />
             </div>

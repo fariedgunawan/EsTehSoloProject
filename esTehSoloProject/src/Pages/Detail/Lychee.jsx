@@ -32,7 +32,7 @@ const Lychee = () => {
             <h2 className="text-center font-medium text-[#CC2A27] mt-[20px] sm:text-left">
               Teh dengan paduan buah leci segar. Rasa teh yang lembut dan aroma manis dari buah leci yang khas memberikan kesegaran yang menyenangkan. Dapat menjadi pilihan yang tepat untuk dinikmati kapanpun.
             </h2>
-            <h2 className="text-center text-[#CC2A27] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp7.000,00</h2>
+            <h2 className="text-center text-[#CC2A27] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp7.000</h2>
           </div>
         </div>
       </div>

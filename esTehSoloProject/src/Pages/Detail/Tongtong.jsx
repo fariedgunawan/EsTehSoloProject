@@ -20,7 +20,8 @@ const Tongtong = () => {
           <div className="caption flex-col flex items-center sm:items-start">
             <h2 className="text-[20px] font-semibold sm:text-[30px]">TONG TONG DRINK (2022)</h2>
             <h2 className="text-center mt-[20px] sm:text-left sm:text-[20px]">
-              Mengadopsi dari minuman boba, Tong Tong berkreasi menaikkan level minuman dengan cita rasa yang berbeda. Dalam balutan brown sugar dan topping jelly yang kenyal kami sebut The Next Level of Boba Drink!
+              Mengadopsi dari minuman boba, Tong Tong berkreasi menaikkan level minuman dengan cita rasa yang berbeda. Dalam balutan <span className="italic">brown sugar</span> dan topping jelly yang kenyal kami sebut{" "}
+              <span className="italic">The Next Level of Boba Drink!</span>
             </h2>
           </div>
         </div>

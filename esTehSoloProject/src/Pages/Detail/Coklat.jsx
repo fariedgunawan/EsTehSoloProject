@@ -32,7 +32,7 @@ const Coklat = () => {
             <h2 className="text-center font-medium text-[#6C3925] mt-[20px] sm:text-left">
               Kombinasi antara teh, susu, dan coklat membuat sensasi minuman ini terasa nikmat. Cocok untuk kamu si pecinta coklat yang ingin menikmati nikmatnya rasa coklat kental dalam teh.
             </h2>
-            <h2 className="text-center text-[#6C3925] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp10.000,00</h2>
+            <h2 className="text-center text-[#6C3925] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp10.000</h2>
           </div>
         </div>
       </div>

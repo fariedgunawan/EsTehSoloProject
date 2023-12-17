@@ -38,12 +38,13 @@ import Ar7 from "./Pages/Detail/Ar7";
 import Ar8 from "./Pages/Detail/Ar8";
 import Ar9 from "./Pages/Detail/Ar9";
 import Ar10 from "./Pages/Detail/Ar10";
+import Pr from "./Pages/Detail/Pr";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Landing />} />
+        <Route path="/" element={<Pr />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/estehmanis" element={<Manis />} />
         <Route path="/estehkampoel" element={<Kampoel />} />
@@ -66,6 +67,7 @@ function App() {
         <Route path="/tongtong" element={<Tongtong />} />
         <Route path="/franchise" element={<Franchise />} />
         <Route path="/artikel" element={<Artikel />} />
+        <Route path="/pressrelease" element={<Pr />} />
         <Route path="/feature1" element={<Fea1 />} />
         <Route path="/feature2" element={<Fea2 />} />
         <Route path="/artikel1" element={<Ar1 />} />
