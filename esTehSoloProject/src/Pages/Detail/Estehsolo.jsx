@@ -32,7 +32,7 @@ const Estehsolo = () => {
           </h2>
           <div className="contact flex flex-col items-center mt-[40px] sm:mt-[60px]">
             <h2 className="font-semibold text-[20px] sm:text-[30px]">Contact</h2>
-            <h2 className="mt-[10px] sm:text-[20px]">0821-4372-6717 (Jawa Tengah - Jawa Timur)</h2>
+            <h2 className="mt-[10px] sm:text-[20px] text-center">0821-4372-6717 (Jawa Tengah - Jawa Timur)</h2>
             <h2 className="sm:text-[20px]">0812-2685-7552 (JABODETABEK - Luar Jawa)</h2>
             <h2 className="sm:text-[20px]">Website : https://www.estehsolo.com/</h2>
             <h2 className="sm:text-[20px]">Instagram : @estehsolo_</h2>
