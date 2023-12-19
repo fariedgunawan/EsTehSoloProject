@@ -33,8 +33,8 @@ const About = () => {
           <div className="perusahaan-kami flex flex-col items-center text-black sm:items-start">
             <h2 className="text-[20px] font-semibold mt-[40px] sm:text-[30px]">Tentang Perusahaan Kami</h2>
             <h2 className="text-[15px] text-center mt-[10px]  sm:text-[20px] sm:text-justify">
-              Pioneer perusahaan yang bergerak dibidang <span className="italic">F&B</span> yang berfokus ke <span className="italic">franchise</span> sejak 2010. Puluhan brand <span className="italic">F&B</span> telah diterbitkan dengan
-              mengusung semangat kerja anak muda. Kami berkomitmen untuk berkontribusi terhadap keberhasilan mitra kami. Dengan tekat yang kuat terus bergerak kedepan agar esok ini dan nanti mampu mampu menghadapi rintangan apapun bersama
+              <span className="italic">Pioneer</span> perusahaan yang bergerak dibidang <span className="italic">F&B</span> yang berfokus ke <span className="italic">franchise</span> sejak 2010. Puluhan brand <span className="italic">F&B</span> telah diterbitkan dengan
+              mengusung semangat kerja anak muda. Kami berkomitmen untuk berkontribusi terhadap keberhasilan mitra kami. Dengan tekat yang kuat terus bergerak kedepan agar esok ini dan nanti mampu menghadapi rintangan apapun bersama
               PT ESOK HARAPAN BANGSA.
             </h2>
             <h2 className="mt-[20px] font-semibold sm:text-[20px] italic">Better Place, Good Life.</h2>
